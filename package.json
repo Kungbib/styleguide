@@ -7,6 +7,7 @@
   "author": "Ola Blissing <ola.blissing@gmail.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "serve": "mkdocs serve"
+    "serve": "mkdocs serve",
+    "build": "mkdocs build"
   }
 }
