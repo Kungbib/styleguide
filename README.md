@@ -5,5 +5,5 @@ Accompanied by [Kungbib/styles](https://github.com/Kungbib/styles).
 
 
 ## Requirements
-Python 3
-node.js (10+)
+* Python 3
+* node.js (10+)
