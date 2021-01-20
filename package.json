@@ -1,0 +1,9 @@
+{
+  "name": "kungbib-styleguide",
+  "version": "1.0.0",
+  "description": "Guidelines for quickly setting up UI in apps and services at the National Library of Sweden.",
+  "main": "index.js",
+  "repository": "git@github.com:Kungbib/styleguide.git",
+  "author": "Ola Blissing <ola.blissing@gmail.com>",
+  "license": "Apache-2.0"
+}
