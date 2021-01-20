@@ -9,8 +9,12 @@ This repository only contains the source for the documentation of the styleguide
 
 ## Building the project
 
-Development serve
-`$ yarn serve`
+Development server
+```
+$ yarn serve
+```
 
 Build for production
-`$ yarn build`
+```
+$ yarn build
+```
