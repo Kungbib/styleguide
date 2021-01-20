@@ -5,7 +5,13 @@ This repository only contains the source for the documentation of the styleguide
 
 ## Requirements
 * Python 3
-* node.js (10+)
+* Yarn
+
+## Setup
+
+```
+$ pip install -r requirements.txt
+```
 
 ## Building the project
 
