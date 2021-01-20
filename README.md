@@ -6,3 +6,11 @@ This repository only contains the source for the documentation of the styleguide
 ## Requirements
 * Python 3
 * node.js (10+)
+
+## Building the project
+
+Development serve
+`$ yarn serve`
+
+Build for production
+`$ yarn build`
