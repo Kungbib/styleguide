@@ -2,3 +2,6 @@
 # yarn lockfile v1
 
 
+kungbib-styles@Kungbib/styles:
+  version "2.0.0"
+  resolved "https://codeload.github.com/Kungbib/styles/tar.gz/9c799d47c0f14ed0a147e2c907ca3004155a44ca"

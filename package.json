@@ -1,6 +1,6 @@
 {
   "name": "kungbib-styleguide",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Guidelines for quickly setting up UI in apps and services at the National Library of Sweden.",
   "main": "index.js",
   "repository": "git@github.com:Kungbib/styleguide.git",
@@ -8,6 +8,10 @@
   "license": "Apache-2.0",
   "scripts": {
     "serve": "mkdocs serve",
+    "postinstall": "cp ./node_modules/kungbib-styles/lib/test.txt ./custom_theme/",
     "build": "mkdocs build"
+  },
+  "dependencies": {
+    "kungbib-styles": "Kungbib/styles"
   }
 }
