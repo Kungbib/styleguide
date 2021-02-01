@@ -11,7 +11,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "serve": "mkdocs serve",
-    "postinstall": "cp ./node_modules/kungbib-styles/lib/test.txt ./custom_theme/",
+    "postinstall": "cp ./node_modules/kungbib-styles/lib/css/theme.css ./custom_theme/css/",
     "build": "mkdocs build"
   },
   "dependencies": {
