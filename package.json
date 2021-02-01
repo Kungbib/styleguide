@@ -5,6 +5,9 @@
   "main": "index.js",
   "repository": "git@github.com:Kungbib/styleguide.git",
   "author": "Ola Blissing <ola.blissing@gmail.com>",
+  "contributors": [
+    "Mattias Bolin <bolin.mattias@gmail.com>"
+  ],
   "license": "Apache-2.0",
   "scripts": {
     "serve": "mkdocs serve",
