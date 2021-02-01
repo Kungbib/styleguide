@@ -1,8 +1,8 @@
-## Logotyp
+# Logotyp
 
 Some nice picturss
 
-### Felaktig användning
+## Felaktig användning
 
 Something something don't do this
 
