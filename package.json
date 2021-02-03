@@ -12,9 +12,9 @@
   "scripts": {
     "serve": "mkdocs serve",
     "postinstall": "yarn run clear_assets && yarn run copy_styles && yarn run copy_assets",
-    "clear_assets": "rm -rf ./custom_theme/assets",
-    "copy_styles": "cp ./node_modules/kungbib-styles/lib/css/theme.css ./custom_theme/css/",
-    "copy_assets": "cp -r ./node_modules/kungbib-styles/lib/assets/ ./custom_theme/assets",
+    "clear_assets": "rm -rf ./theme/assets",
+    "copy_styles": "cp ./node_modules/kungbib-styles/lib/css/theme.css ./theme/css/",
+    "copy_assets": "cp -r ./node_modules/kungbib-styles/lib/assets/ ./theme/assets",
     "build": "mkdocs build",
     "deploy": "./deploy.sh"
   },
