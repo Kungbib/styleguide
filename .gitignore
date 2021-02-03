@@ -2,3 +2,4 @@
 node_modules
 custom_theme/css/theme.css
 custom_theme/fonts/sentinel/*
+deploy.cfg
