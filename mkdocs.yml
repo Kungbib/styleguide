@@ -3,7 +3,7 @@ docs_dir: './docs'
 site_dir: './build'
 theme:
     name: null
-    custom_dir: 'custom_theme/'
+    custom_dir: 'theme/'
     static_templates:
         - 404.html
     include_search_page: false
