@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/sentinel/sentinel-normal.woff2") format("woff2"), url("../fonts/sentinel/sentinel-normal.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/sentinel/sentinel-italic.woff2") format("woff2"), url("../fonts/sentinel/sentinel-italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/sentinel/sentinel-semibold.woff2") format("woff2"), url("../fonts/sentinel/sentinel-semibold.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../fonts/sentinel/sentinel-semibold-italic.woff2") format("woff2"), url("../fonts/sentinel/sentinel-semibold-italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-LightItalic.ttf");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Italic.ttf");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-MediumItalic.ttf");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-BoldItalic.ttf");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Black.ttf");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-BlackItalic.ttf");
+  font-style: italic;
+  font-weight: 900;
+}
+#toc-collapse .nav-item {
+  font-family: "Sentinel";
+  padding: 0;
+}
+#toc-collapse .nav-item[data-level="1"] {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0.7rem 0 0 0;
+}
+#toc-collapse .nav-item[data-level="2"] {
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 0.3rem 0 0 1rem;
+}
+#toc-collapse .nav-link {
+  padding: 0rem;
+}
+
+.ingress {
+  font-family: "Sentinel";
+}
+.ingress h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.ingress p {
+  font-size: 1.6rem;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+}
+.navbar-brand img {
+  margin-right: 0.25rem;
+}
+
+/*# sourceMappingURL=main.css.map */

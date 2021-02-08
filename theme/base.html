@@ -17,11 +17,8 @@
       {%- endblock %}
 
       {%- block styles %}
-        <!-- <link href="{{ 'css/bootstrap.min.css'|url }}" rel="stylesheet">
-        <link href="{{ 'css/font-awesome.min.css'|url }}" rel="stylesheet">
-        <link href="{{ 'css/base.css'|url }}" rel="stylesheet"> -->
-        <link href="{{ 'css/sentinel.css'|url }}" rel="stylesheet">
-        <link href="{{ 'css/theme.css'|url }}" rel="stylesheet">
+      <link href="{{ 'vendor/css/theme.css'|url }}" rel="stylesheet">
+      <link href="{{ 'css/main.css'|url }}" rel="stylesheet">
         {%- if config.theme.highlightjs %}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ config.theme.hljs_style }}.min.css">
         {%- endif %}
@@ -33,7 +30,7 @@
       {%- block libs %}
 
         <script src="{{ 'js/jquery-1.10.2.min.js'|url }}" defer></script>
-        <script src="{{ 'js/bootstrap.min.js'|url }}" defer></script>
+        <script src="{{ 'vejs/bootstrap.min.js'|url }}" defer></script>
         {%- if config.theme.highlightjs %}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         {%- for lang in config.theme.hljs_languages %}

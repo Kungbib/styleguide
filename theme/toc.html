@@ -4,7 +4,7 @@
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
-
+    
     {% macro toc_item(item) %}
         {%- if item.level <= config.theme.navigation_depth %}
             <li class="nav-item" data-level="{{ item.level }}"><a href="{{ item.url }}" class="nav-link">{{ item.title }}</a>
@@ -16,8 +16,9 @@
             </li>
         {%- endif %}
     {%- endmacro %}
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+    <div id="toc-collapse" class="navbar-collapse collapse bg-light">
         <ul class="nav flex-column">
+        <li class="nav-item" data-level="1"><a href="#" class="nav-link">Inledning</a></li>
         {%- for item in page.toc %}
             {{ toc_item(item) }}
         {%- endfor %}

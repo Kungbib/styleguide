@@ -11,14 +11,20 @@
   "license": "Apache-2.0",
   "scripts": {
     "serve": "mkdocs serve",
-    "postinstall": "yarn run clear_assets && yarn run copy_styles && yarn run copy_assets",
-    "clear_assets": "rm -rf ./theme/assets",
-    "copy_styles": "cp ./node_modules/kungbib-styles/lib/css/theme.css ./theme/css/",
-    "copy_assets": "cp -r ./node_modules/kungbib-styles/lib/assets/ ./theme/assets",
-    "build": "mkdocs build",
-    "deploy": "./deploy.sh"
+    "postinstall": "yarn run clear_vendor && yarn run copy_vendor",
+    "clear_vendor": "rm -rf ./theme/vendor",
+    "create_vendor": "mkdir -p ./theme/vendor/",
+    "copy_vendor": "yarn run create_vendor && yarn run copy_styles && yarn run copy_assets && yarn run copy_bootstrap",
+    "copy_bootstrap": "mkdir -p ./theme/vendor/js/ && cp -r ./node_modules/bootstrap/dist/js/bootstrap.min.js ./theme/vendor/js/",
+    "copy_styles": "cp -r ./node_modules/kungbib-styles/lib/css/ ./theme/vendor/",
+    "copy_assets": "mkdir -p ./theme/vendor/assets && cp -r ./node_modules/kungbib-styles/lib/assets/ ./theme/vendor/",
+    "sass:build": "sass ./theme/styles/main.scss:./theme/css/main.css",
+    "sass:watch": "sass --watch --poll theme/styles/main.scss:theme/css/main.css",
+    "build": "yarn run sass:build && mkdocs build",
+    "deploy": "yarn run build && ./deploy.sh"
   },
   "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
     "kungbib-styles": "Kungbib/styles"
   }
 }
