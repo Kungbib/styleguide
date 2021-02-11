@@ -6,6 +6,7 @@ This repository only contains the source for the documentation of the styleguide
 ## Requirements
 * Python 3
 * Yarn
+* Sass
 
 ## Setup
 
