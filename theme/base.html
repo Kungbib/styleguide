@@ -28,9 +28,7 @@
       {%- endblock %}
 
       {%- block libs %}
-
-        <script src="{{ 'js/jquery-1.10.2.min.js'|url }}" defer></script>
-        <script src="{{ 'vejs/bootstrap.min.js'|url }}" defer></script>
+        <script src="{{ 'vendor/js/bootstrap.min.js'|url }}" defer></script>
         {%- if config.theme.highlightjs %}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         {%- for lang in config.theme.hljs_languages %}
@@ -57,7 +55,7 @@
       {%- block extrahead %} {% endblock %}
     </head>
 
-    <body{% if page and page.is_homepage %} class="homepage"{% endif %}>
+    <body{% if page and page.is_homepage %} class="homepage"{% endif %}  data-bs-spy="scroll" data-bs-target="#toc-collapse">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 {%- block site_name %}
@@ -83,11 +81,11 @@
             </div>
         </nav>
 
-        <div class="container">
+        <div class="container main-content">
             <div class="row">
                 {%- block content %}
                     <div class="col-md-3">{% include "toc.html" %}</div>
-                    <div class="col-md-9" role="main">{% include "content.html" %}</div>
+                    <div class="col-md-9 margin-bottom" role="main">{% include "content.html" %}</div>
                 {%- endblock %}
             </div>
         </div>

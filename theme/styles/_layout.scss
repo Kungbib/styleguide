@@ -1,0 +1,25 @@
+body {
+    position: relative;
+}
+
+.main-content {
+    margin-top: 3rem;
+}
+
+.gallery-block {
+    .gallery-item {
+        display: flex;
+        padding: 1em;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5em;
+        img {
+            &.x-50 {
+                width: 50%;
+            }
+            &.x-75 {
+                width: 75%;
+            }
+        }
+    }
+}

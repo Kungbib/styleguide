@@ -1,4 +1,8 @@
 #toc-collapse {
+    .nav {
+        margin-top: 1rem;
+    }
+
     .nav-item {
         font-family: 'Sentinel';
         padding: 0;
@@ -6,6 +10,9 @@
             font-weight: bold;
             font-size: 1.2rem;
             margin: 0.7rem 0 0 0;
+            > .nav-link.active::before {
+                content: "• ";
+            }
         }
         &[data-level="2"] {
             font-weight: normal;

@@ -1,4 +1,4 @@
-<div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+<div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix sticky-top" role="complementary">
     <div class="navbar-header">
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
@@ -16,9 +16,9 @@
             </li>
         {%- endif %}
     {%- endmacro %}
-    <div id="toc-collapse" class="navbar-collapse collapse bg-light">
+    <div id="toc-collapse" class="navbar-collapse collapse">
         <ul class="nav flex-column">
-        <li class="nav-item" data-level="1"><a href="#" class="nav-link">Inledning</a></li>
+        <li class="nav-item" data-level="1"><a href="#intro" class="nav-link">Inledning</a></li>
         {%- for item in page.toc %}
             {{ toc_item(item) }}
         {%- endfor %}

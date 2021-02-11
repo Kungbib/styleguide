@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Sentinel";
   font-weight: 400;
@@ -82,6 +83,9 @@
   font-style: italic;
   font-weight: 900;
 }
+#toc-collapse .nav {
+  margin-top: 1rem;
+}
 #toc-collapse .nav-item {
   font-family: "Sentinel";
   padding: 0;
@@ -90,6 +94,9 @@
   font-weight: bold;
   font-size: 1.2rem;
   margin: 0.7rem 0 0 0;
+}
+#toc-collapse .nav-item[data-level="1"] > .nav-link.active::before {
+  content: "• ";
 }
 #toc-collapse .nav-item[data-level="2"] {
   font-weight: normal;
@@ -116,6 +123,28 @@
 }
 .navbar-brand img {
   margin-right: 0.25rem;
+}
+
+body {
+  position: relative;
+}
+
+.main-content {
+  margin-top: 3rem;
+}
+
+.gallery-block .gallery-item {
+  display: flex;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em;
+}
+.gallery-block .gallery-item img.x-50 {
+  width: 50%;
+}
+.gallery-block .gallery-item img.x-75 {
+  width: 75%;
 }
 
 /*# sourceMappingURL=main.css.map */
