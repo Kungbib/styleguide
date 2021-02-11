@@ -10,7 +10,7 @@ theme:
     search_index_only: false
     highlightjs: true
     hljs_languages: []
-    hljs_style: github
+    hljs_style: hybrid
     navigation_depth: 3
     nav_style: primary
     shortcuts:
