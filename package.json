@@ -24,7 +24,7 @@
     "deploy": "yarn run build && ./deploy.sh"
   },
   "dependencies": {
-    "bootstrap": "^5.0.0-beta1",
+    "bootstrap": "^5.0.0-beta2",
     "kungbib-styles": "Kungbib/styles"
   }
 }
