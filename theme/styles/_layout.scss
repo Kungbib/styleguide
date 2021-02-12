@@ -23,3 +23,29 @@ body {
         }
     }
 }
+
+.example-block {
+    width: 100%;
+    padding: 1em;
+    margin: 0 0 1em 0;
+    .example {
+        display: flex;
+        > * {
+            display: flex;
+            padding: 1em;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &:first-child {
+        }
+        &:last-child {
+            span {
+                &:first-child {
+                    font-weight: 600;   
+                }
+            }
+            flex-grow: 1;
+            display: flex;
+        }
+    }
+}

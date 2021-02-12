@@ -147,4 +147,26 @@ body {
   width: 75%;
 }
 
+.example-block {
+  width: 100%;
+  padding: 1em;
+  margin: 0 0 1em 0;
+}
+.example-block .example {
+  display: flex;
+}
+.example-block .example > * {
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+  flex-direction: column;
+}
+.example-block .example:last-child {
+  flex-grow: 1;
+  display: flex;
+}
+.example-block .example:last-child span:first-child {
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=main.css.map */
