@@ -12,8 +12,8 @@ Text om rundade knappar (nämn färgval)
 
 <div class="example-block bg-light">
     <div class="example">
-        <div>
-            <button type="button" class="btn">Default</button>
+        <div class="col-4 col-sm-3">
+            <button type="button" class="btn btn-primary btn-round">Default</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -21,8 +21,8 @@ Text om rundade knappar (nämn färgval)
         </div>
     </div>
     <div class="example">
-        <div>
-            <button type="button" class="btn">Default</button>
+        <div class="col-4 col-sm-3">
+            <button type="button" class="btn btn-primary btn-round">Hover</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -30,8 +30,8 @@ Text om rundade knappar (nämn färgval)
         </div>
     </div>
     <div class="example">
-        <div>
-            <button type="button" class="btn">Default</button>
+        <div class="col-4 col-sm-3">
+            <button type="button" class="btn btn-primary btn-round active">Focus</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -46,8 +46,8 @@ Text om rektangulära knappar (nämn färgval)
 
 <div class="example-block bg-light">
     <div class="example">
-        <div>
-            <button type="button" class="btn">Default</button>
+        <div class="col-4 col-sm-3">
+            <button type="button" class="btn btn-turquoise">Default</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -55,8 +55,8 @@ Text om rektangulära knappar (nämn färgval)
         </div>
     </div>
     <div class="example">
-        <div>
-            <button type="button" class="btn">Default</button>
+        <div class="col-4 col-sm-3">
+            <button type="button" class="btn btn-turquoise">Hover</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -64,8 +64,8 @@ Text om rektangulära knappar (nämn färgval)
         </div>
     </div>
     <div class="example">
-        <div>
-            <button type="button" class="btn">Default</button>
+        <div class="col-4 col-sm-3">
+            <button type="button" class="btn btn-turquoise">Focus</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -80,8 +80,8 @@ Text om textknappar
 
 <div class="example-block bg-light">
     <div class="example">
-        <div>
-            <button type="button" class="btn">Default</button>
+        <div class="col-4 col-sm-3">
+            <button type="button" class="btn btn-light">Default</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -89,8 +89,8 @@ Text om textknappar
         </div>
     </div>
     <div class="example">
-        <div>
-            <button type="button" class="btn">Default</button>
+        <div class="col-4 col-sm-3">
+            <button type="button" class="btn btn-light">Hover</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -98,8 +98,8 @@ Text om textknappar
         </div>
     </div>
     <div class="example">
-        <div>
-            <button type="button" class="btn">Default</button>
+        <div class="col-4 col-sm-3">
+            <button type="button" class="btn btn-light">Focus</button>
         </div>
         <div>
             <span>ROBOTO</span>
