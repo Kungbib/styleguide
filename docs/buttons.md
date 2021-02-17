@@ -2,9 +2,7 @@
 
 Knappar används för att verkställa en handling. Knappen måste ha någon typ av fokusläge för att följa tillgänglighetsstandarder.
 
-Texten på en knappp ska vara kort och beskriva handlingen som knappen utför.
-
-Använd ej knappar som substitut för länkar.
+Texten på en knapp ska vara kort och beskriva handlingen som knappen utför.
 
 ## Rundade
 
