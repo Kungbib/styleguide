@@ -83,28 +83,31 @@
   font-style: italic;
   font-weight: 900;
 }
-#toc-collapse .nav {
+#toc-collapse {
   margin-top: 1rem;
 }
 #toc-collapse .nav-item {
   font-family: "Sentinel";
   padding: 0;
 }
-#toc-collapse .nav-item[data-level="1"] {
+#toc-collapse .nav-item[data-level="2"], #toc-collapse .nav-item[data-level="1"] {
   font-weight: bold;
   font-size: 1.2rem;
   margin: 0.7rem 0 0 0;
 }
-#toc-collapse .nav-item[data-level="1"] > .nav-link.active::before {
+#toc-collapse .nav-item[data-level="2"] > .nav-link.active::before, #toc-collapse .nav-item[data-level="1"] > .nav-link.active::before {
   content: "• ";
 }
-#toc-collapse .nav-item[data-level="2"] {
+#toc-collapse .nav-item[data-level="3"] {
   font-weight: normal;
   font-size: 1rem;
   margin: 0.3rem 0 0 1rem;
 }
 #toc-collapse .nav-link {
   padding: 0rem;
+}
+#toc-collapse .nav-link:not(.active) + .subnav {
+  display: none;
 }
 
 .ingress {
