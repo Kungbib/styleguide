@@ -1,12 +1,10 @@
 #toc-collapse {
-    .nav {
-        margin-top: 1rem;
-    }
+    margin-top: 1rem;
 
     .nav-item {
         font-family: 'Sentinel';
         padding: 0;
-        &[data-level="1"] {
+        &[data-level="2"], &[data-level="1"] {
             font-weight: bold;
             font-size: 1.2rem;
             margin: 0.7rem 0 0 0;
@@ -14,7 +12,7 @@
                 content: "• ";
             }
         }
-        &[data-level="2"] {
+        &[data-level="3"] {
             font-weight: normal;
             font-size: 1rem;
             margin: 0.3rem 0 0 1rem;
@@ -22,5 +20,8 @@
     }
     .nav-link {
         padding: 0rem;
+    }
+    .nav-link:not(.active) + .subnav {
+        display: none;
     }
 }
