@@ -4,11 +4,91 @@ Text
 ### Etiketter
 Alla formulärfält ska beskrivas med etikett. Etiketter ska vara linjerande ovanför sitt formulärfältet. Texten ska vara kort, kärnfull och tydlig. Kolon (:) ska inte användas på slutet. Göm inte etiketter såtillvida inte kontext och övrigt innehåll gör etiketten onödig.
 
+<form class="bg-light p-3 my-2">
+  <div class="mb-3">
+    <label for="exampleLabel1" class="form-label">Etikett</label>
+    <input type="text" id="exampleLabel1" class="form-control">
+  </div>
+</form>
+
 ### Formulärfält
 Gör fältens bredd proportionerligt till den information som ska fyllas i. Se till att informationen som fylls i får plats i fältet. Se till att användaren kan fylla i den information som behövs även på mindre skärmstorlekar. Sätt alltid formulärfälten till 100% bredd för mindre skärmstorlekar.
 
+<form class="bg-light p-3 my-2">
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example1">Förnamn</label>
+        <input type="text" id="form3Example1" class="form-control" />
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example2">Efternamn</label>
+        <input type="text" id="form3Example2" class="form-control" />
+      </div>
+    </div>
+  </div>
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form3Example3">Gatuadress</label>
+    <input type="email" id="form3Example3" class="form-control" />
+  </div>
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example1">Postnummer</label>
+        <input type="text" id="form3Example1" class="form-control" />
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example2">Ort</label>
+        <input type="text" id="form3Example2" class="form-control" />
+      </div>
+    </div>
+  </div>
+</form>
+
 ### Fältgrupper
 Använd fältgrupper (fieldsets) för att gruppera formulär. Det första elementet i en fältgrupp måste vara ett legend-element som beskriver gruppen.
+
+<form class="bg-light p-3 my-2">
+<fieldset>
+  <legend>Kontaktuppgifter</legend>
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example1">Förnamn</label>
+        <input type="text" id="form3Example1" class="form-control" />
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example2">Efternamn</label>
+        <input type="text" id="form3Example2" class="form-control" />
+      </div>
+    </div>
+  </div>
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form3Example3">Gatuadress</label>
+    <input type="email" id="form3Example3" class="form-control" />
+  </div>
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example1">Postnummer</label>
+        <input type="text" id="form3Example1" class="form-control" />
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example2">Ort</label>
+        <input type="text" id="form3Example2" class="form-control" />
+      </div>
+    </div>
+  </div>
+  </fieldset>
+</form>
 
 ### Hjälptexter
 Text
