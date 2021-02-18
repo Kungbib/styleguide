@@ -18,6 +18,8 @@
 
 {% include 'images_icons.md' %}
 
+{% include 'layout.md' %}
+
 {% include 'accessability.md' %}
 
 {% include 'stylesheet.md' %}
