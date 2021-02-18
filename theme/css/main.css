@@ -110,17 +110,6 @@
   display: none;
 }
 
-.ingress {
-  font-family: "Sentinel";
-}
-.ingress h1 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-.ingress p {
-  font-size: 1.6rem;
-}
-
 .navbar-brand {
   font-size: 1rem;
 }
