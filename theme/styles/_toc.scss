@@ -5,11 +5,14 @@
         font-family: 'Sentinel';
         padding: 0;
         &[data-level="2"], &[data-level="1"] {
-            font-weight: bold;
+            font-weight: 600;
             font-size: 1.2rem;
             margin: 0.7rem 0 0 0;
-            > .nav-link.active::before {
-                content: "• ";
+            > .nav-link.active {
+                font-style: italic;
+                &::before {
+                    content: "• ";
+                }
             }
         }
         &[data-level="3"] {

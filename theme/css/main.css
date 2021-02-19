@@ -1,27 +1,75 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Sentinel";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/sentinel/Sentinel-Light.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/sentinel/Sentinel-LightItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-LightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
   font-weight: 400;
   font-style: normal;
-  src: url("../fonts/sentinel/sentinel-normal.woff2") format("woff2"), url("../fonts/sentinel/sentinel-normal.woff") format("woff");
+  src: url("../fonts/sentinel/Sentinel-Medium.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "Sentinel";
   font-weight: 400;
   font-style: italic;
-  src: url("../fonts/sentinel/sentinel-italic.woff2") format("woff2"), url("../fonts/sentinel/sentinel-italic.woff") format("woff");
+  src: url("../fonts/sentinel/Sentinel-MediumItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-MediumItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/sentinel/Sentinel-Medium.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 500;
+  font-style: italic;
+  src: url("../fonts/sentinel/Sentinel-MediumItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-MediumItalic.woff") format("woff");
 }
 @font-face {
   font-family: "Sentinel";
   font-weight: 600;
   font-style: normal;
-  src: url("../fonts/sentinel/sentinel-semibold.woff2") format("woff2"), url("../fonts/sentinel/sentinel-semibold.woff") format("woff");
+  src: url("../fonts/sentinel/Sentinel-Semibold.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Semibold.woff") format("woff");
 }
 @font-face {
   font-family: "Sentinel";
   font-weight: 600;
   font-style: italic;
-  src: url("../fonts/sentinel/sentinel-semibold-italic.woff2") format("woff2"), url("../fonts/sentinel/sentinel-semibold-italic.woff") format("woff");
+  src: url("../fonts/sentinel/Sentinel-SemiboldItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-SemiboldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/sentinel/Sentinel-Bold.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../fonts/sentinel/Sentinel-BoldItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-BoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/sentinel/Sentinel-Black.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Sentinel";
+  font-weight: 900;
+  font-style: italic;
+  src: url("../fonts/sentinel/Sentinel-BlackItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-BlackItalic.woff") format("woff");
 }
 @font-face {
   font-family: "Roboto";
@@ -91,9 +139,12 @@
   padding: 0;
 }
 #toc-collapse .nav-item[data-level="2"], #toc-collapse .nav-item[data-level="1"] {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.2rem;
   margin: 0.7rem 0 0 0;
+}
+#toc-collapse .nav-item[data-level="2"] > .nav-link.active, #toc-collapse .nav-item[data-level="1"] > .nav-link.active {
+  font-style: italic;
 }
 #toc-collapse .nav-item[data-level="2"] > .nav-link.active::before, #toc-collapse .nav-item[data-level="1"] > .nav-link.active::before {
   content: "• ";
