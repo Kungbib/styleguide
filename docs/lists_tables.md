@@ -6,14 +6,165 @@ Använd tabeller om syftet är att presentera data.
 ### Oordnad
 Text
 
+<div class="example-block bg-light">
+<ul>
+    <li>Listelement 1</li>
+    <li>Listelement 2</li>
+    <li>Listelement 3</li>
+    <li>
+        Listelement 4
+        <ul>
+            <li>Listelement 4.1</li>
+        </ul>
+    </li>
+    <li>
+        Listelement 5
+        <ul>
+            <li>Listelement 5.1</li>
+            <li>Listelement 5.2</li>
+        </ul>
+    </li>
+    <li>Listelement 6</li>
+</ul>
+</div>
+
 ### Ordnad
 Text
+
+<div class="example-block bg-light">
+<ol>
+    <li>Listelement 1</li>
+    <li>Listelement 2</li>
+    <li>Listelement 3</li>
+    <li>
+        Listelement 4
+        <ol>
+            <li>Listelement 4.1</li>
+        </ol>
+    </li>
+    <li>
+        Listelement 5
+        <ol>
+            <li>Listelement 5.1</li>
+            <li>Listelement 5.2</li>
+        </ol>
+    </li>
+    <li>Listelement 6</li>
+</ol>
+</div>
 
 ### Definitionslista
 Text
 
+<div class="example-block bg-light">
+<dl>
+    <dt>Rubrik</dt>
+    <dd>Listelement</dd>
+    
+    <dt>Rubrik</dt>
+    <dd>Listelement</dd>
+    
+    <dt>Rubrik</dt>
+    <dd>Listelement</dd>
+</dl>
+</div>
+
 ### Tabell
 Text
 
+<div class="example-block bg-light">
+    <table class="table">
+        <thead>
+            <td>Kolumn 1</td>
+            <td>Kolumn 2</td>
+            <td>Kolumn 3</td>
+            <td>Kolumn 4</td>
+            <td>Kolumn 5</td>
+        </thead>
+        <tr>
+            <td>Rad 1</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Rad 2</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Rad 3</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Rad 4</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Rad 5</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+    </table>
+</div>
+
 ### Randig tabell
 Text
+
+<div class="example-block bg-light">
+    <table class="table table-striped">
+        <thead>
+            <td>Kolumn 1</td>
+            <td>Kolumn 2</td>
+            <td>Kolumn 3</td>
+            <td>Kolumn 4</td>
+            <td>Kolumn 5</td>
+        </thead>
+        <tr>
+            <td>Rad 1</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Rad 2</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Rad 3</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Rad 4</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Rad 5</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+    </table>
+</div>
