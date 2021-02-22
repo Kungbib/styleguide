@@ -4,16 +4,15 @@ Listor används för att strukturera upp innehåll. Det finns tre varianter av l
 Använd tabeller om syftet är att presentera data.
 
 ### Oordnad
-Text
+Oordnade listor (ul) används då inbördes ordning inte är av större vikt, exempelvis vid en lista med länkar.  
 
 ### Ordnad
-Text
+Använd ordnade listor (ol) när punkterna behöver komma i en viss ordning, exempelvis vid instruktioner. 
 
 ### Definitionslista
-Text
+En definitionslista (dl) används för att förklara olika begrepp. 
 
 ### Tabell
-Text
+Välj mellan linjerad och randig tabell. Kolumner som består av enbart numeriska värden kan med fördel högerställas för att öka läsbarheten.
 
 ### Randig tabell
-Text
