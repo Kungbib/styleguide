@@ -212,4 +212,23 @@ body {
   font-weight: 600;
 }
 
+.example-color {
+  margin: 1em 0em;
+  display: flex;
+  justify-content: space-between;
+}
+.example-color-circle {
+  width: 30%;
+  border-radius: 99em;
+}
+.example-color-description {
+  width: 65%;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+.example-color-description span:first-child {
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=main.css.map */

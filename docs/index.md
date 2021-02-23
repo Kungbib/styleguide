@@ -8,6 +8,8 @@
 
 {% include 'logotype.md' %}
 
+{% include 'colors.md' %}
+
 {% include 'typography.md' %}
 
 {% include 'lists_tables.md' %}
