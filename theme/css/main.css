@@ -232,4 +232,12 @@ body {
   font-weight: 600;
 }
 
+.example-type {
+  display: flex;
+  flex-direction: column;
+}
+.example-type > span:last-child {
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=main.css.map */
