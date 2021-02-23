@@ -1,6 +1,6 @@
 ## Stilmall
 
-Som ett komplement till stilguiden finns även [Kungbib/styles](https://github.com/Kungbib/styles), ett stilmallspaket som bygger på [Bootstrap 5](http://getbootstrap.com/).
+Som ett komplement till stilguiden finns även [Kungbib/styles](https://github.com/Kungbib/styles), ett stilmallspaket som bygger på [Bootstrap 5](https://getbootstrap.com/docs/5.0/).
 
 Paketet riktar sig till den som vill ha en stabil utgångspunkt för sin tjänstedesign, och kommer med både paketerade CSS-filer och opaketerade Sass-filer.
 
@@ -11,14 +11,14 @@ Alternativt (specifik version)
 
     $ npm install kungbib-styles#2.0.0
 
-### Använda färdig CSS-fil
+### Färdig CSS-fil
 Om du inte har behov av att anpassa stilmallens grundvariabler så kan du <del>[ladda ner CSS-filen](#)</del> och använda den rakt av. **Observera** att direkt länkning till denna fil inte bör göras, eftersom uppdateringar av stilmallen kan bryta din tjänsts layout.
 
 Vi rekommenderar att använda någon slags pakethanterare, t ex npm eller Yarn.
 
 CSS-filerna hittar du under `lib/css`.
 
-### Använda Sass-filer
+### Sass-filer
 Om ditt projekt behöver större möjlighet för anpassning rekommenderas att du istället använder dig av våra Sass-filer och kompilerar dessa själv tillsammans med Bootstrap. Då får du tillgång till samtliga variabler från både Bootstrap och vårat tema.
 
 Du bör sedan skapa en egen samlingsfil i ditt eget projekt där du importerar Bootstrap och våran samlingsfil `theme.scss` från mappen `lib/scss`.
@@ -37,3 +37,21 @@ Exempel på samlingsfil
 // Import own styles
 @import 'styles';
 ```` 
+
+### Användning
+
+Bootstrap 5 innehåller ett stort antal komponenter och hjälpklasser, och som grundregel kan man konsultera [dess dokumentation](https://getbootstrap.com/docs/5.0/) för själva användningen av dessa. Detta avsnitt hanterar de ytterligare hjälpmedel som är implementerade i vårat egna tema.
+
+#### Färgklasser
+
+Text och bakgrunder kan enkelt färgas genom att använda `.bg-*` eller `.text-*` där `*` byts mot variabelnamnet (se [färger](#farger)).
+
+---
+`.bg-kb-primary-green` ger en bakgrundsfärg enligt variabeln `$kb-primary-green`:
+<div class="bg-kb-primary-green">Exempel på färgad panel</div>
+
+---
+
+`.text-kb-secondary-turquoise` ger en textfärg enligt variabeln `$kb-secondary-turquoise`:
+
+<div class="text-kb-secondary-turquoise">Exempel på färgad text</div>

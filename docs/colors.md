@@ -8,7 +8,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
 
 <div class="example-block bg-light">
     <div class="row">
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-primary-black ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Svart</span>
@@ -17,7 +17,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
                 <span>R0 G0 B0</span>
             </div>
         </div>
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-primary-white border ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Vit</span>
@@ -28,7 +28,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
         </div>
     </div>
     <div class="row">
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-primary-grey ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Grå</span>
@@ -39,7 +39,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
         </div>
     </div>
     <div class="row">
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-primary-green ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Grön</span>
@@ -48,7 +48,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
                 <span>R0 G0 B0</span>
             </div>
         </div>
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-primary-pink ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Rosa</span>
@@ -59,7 +59,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
         </div>
     </div>
     <div class="row">
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-primary-blue ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Blå</span>
@@ -68,7 +68,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
                 <span>R0 G0 B0</span>
             </div>
         </div>
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-primary-orange ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Orange</span>
@@ -87,9 +87,9 @@ Utöver dessa färgerna används även savrt, vitt och grå för att lyfta infor
 
 ### Sekundärfärger
 
-<div class="example-block">
+<div class="example-block bg-light">
     <div class="row">
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-secondary-turquoise ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Turkos</span>
@@ -98,7 +98,7 @@ Utöver dessa färgerna används även savrt, vitt och grå för att lyfta infor
                 <span>R0 G0 B0</span>
             </div>
         </div>
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-secondary-blue ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Blå</span>
@@ -109,7 +109,7 @@ Utöver dessa färgerna används även savrt, vitt och grå för att lyfta infor
         </div>
     </div>
     <div class="row">
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-secondary-grey ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Grå</span>
@@ -127,9 +127,9 @@ Turkos eller Blå kan till fördel användas som länkfärg. Grå gör sig lämp
 
 Signalfärgerna används huvudsakligen vid validering av formuär eller vid dialogrutor.
 
-<div class="example-block">
+<div class="example-block bg-light">
     <div class="row">
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-signal-red ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Turkos</span>
@@ -138,7 +138,7 @@ Signalfärgerna används huvudsakligen vid validering av formuär eller vid dial
                 <span>R0 G0 B0</span>
             </div>
         </div>
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-signal-yellow ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Blå</span>
@@ -149,7 +149,7 @@ Signalfärgerna används huvudsakligen vid validering av formuär eller vid dial
         </div>
     </div>
     <div class="row">
-        <div class="example-color col-md-6">
+        <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-signal-green ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Grå</span>
