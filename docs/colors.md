@@ -23,7 +23,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
                 <span>Vit</span>
                 <span>$kb-primary-white</span>
                 <span>#FFFFFF</span>
-                <span>R0 G0 B0</span>
+                <span>R255 G255 B255</span>
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
                 <span>Grå</span>
                 <span>$kb-primary-grey</span>
                 <span>#F9F9F9</span>
-                <span>R0 G0 B0</span>
+                <span>R249 G249 B249</span>
             </div>
         </div>
     </div>
@@ -45,7 +45,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
                 <span>Grön</span>
                 <span>$kb-primary-green</span>
                 <span>#B1D18B</span>
-                <span>R0 G0 B0</span>
+                <span>R177 G209 B139</span>
             </div>
         </div>
         <div class="example-color col-xl-6">
@@ -54,7 +54,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
                 <span>Rosa</span>
                 <span>$kb-primary-pink</span>
                 <span>#FD6B8E</span>
-                <span>R0 G0 B0</span>
+                <span>R253 G107 B142</span>
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
                 <span>Blå</span>
                 <span>$kb-primary-blue</span>
                 <span>#65C6FD</span>
-                <span>R0 G0 B0</span>
+                <span>R101 G198 B253</span>
             </div>
         </div>
         <div class="example-color col-xl-6">
@@ -74,7 +74,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
                 <span>Orange</span>
                 <span>$kb-primary-orange</span>
                 <span>#F7A07B</span>
-                <span>R0 G0 B0</span>
+                <span>R247 G160 B123</span>
             </div>
         </div>
     </div>
@@ -95,7 +95,7 @@ Utöver dessa färgerna används även savrt, vitt och grå för att lyfta infor
                 <span>Turkos</span>
                 <span>$kb-secondary-turquoise</span>
                 <span>#058194</span>
-                <span>R0 G0 B0</span>
+                <span>R5 G129 B148</span>
             </div>
         </div>
         <div class="example-color col-xl-6">
@@ -104,7 +104,7 @@ Utöver dessa färgerna används även savrt, vitt och grå för att lyfta infor
                 <span>Blå</span>
                 <span>$kb-secondary-blue</span>
                 <span>#236FC8</span>
-                <span>R0 G0 B0</span>
+                <span>R35 G111 B200</span>
             </div>
         </div>
     </div>
@@ -115,7 +115,7 @@ Utöver dessa färgerna används även savrt, vitt och grå för att lyfta infor
                 <span>Grå</span>
                 <span>$kb-secondary-grey</span>
                 <span>#707070</span>
-                <span>R0 G0 B0</span>
+                <span>R112 G112 B112</span>
             </div>
         </div>
     </div>
@@ -132,19 +132,19 @@ Signalfärgerna används huvudsakligen vid validering av formuär eller vid dial
         <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-signal-red ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Turkos</span>
+                <span>Röd</span>
                 <span>$kb-signal-red</span>
                 <span>#058194</span>
-                <span>R0 G0 B0</span>
+                <span>R209 G51 B58</span>
             </div>
         </div>
         <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-signal-yellow ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Blå</span>
+                <span>Gul</span>
                 <span>$kb-signal-yellow</span>
                 <span>#236FC8</span>
-                <span>R0 G0 B0</span>
+                <span>R244 G181 B79</span>
             </div>
         </div>
     </div>
@@ -152,10 +152,10 @@ Signalfärgerna används huvudsakligen vid validering av formuär eller vid dial
         <div class="example-color col-xl-6">
             <div class="example-color-circle bg-kb-signal-green ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Grå</span>
+                <span>Grön</span>
                 <span>$kb-signal-green</span>
                 <span>#707070</span>
-                <span>R0 G0 B0</span>
+                <span>R1 G194 B129</span>
             </div>
         </div>
     </div>
