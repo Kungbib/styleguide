@@ -1,3 +1,14 @@
 ## Tillgänglighet
+Kungliga biblioteket arbetar med att tillgängliggöra digitala tjänster och system. Vi strävar efter att våra webbplatser och digitala tjänster ska kunna uppfattas, hanteras och förstås av användare, samt uppnå grundläggande tillgänglighet genom att följa [Web Content Accessibility Guidelines (WCAG) 2.1 AA](https://www.w3.org/TR/2008/REC-WCAG20-20081211/).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id sapien dui. Aenean congue feugiat mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse nec urna in diam fringilla auctor eu vel nibh. Vivamus pellentesque tortor ut neque rhoncus scelerisque. Quisque ac scelerisque felis. Duis sit amet sem maximus, tempus ex a, facilisis odio. Sed pellentesque, nibh non finibus malesuada, est justo molestie magna, in egestas dolor orci vitae lectus. Aenean sit amet ipsum dui. Nulla felis dui, vulputate non pharetra a, feugiat a magna. Vivamus vitae enim magna.
+[Myndigheten för digital förvaltning](https://www.digg.se/) ansvarar för att lagen om tillgänglighet till digital offentlig service får genomslag. 
+
+### Tillgänglighetsredogörelse
+Enligt lagen om tillgänglighet till digital offentlig service ska alla offentliga aktörer regelbundet publicera en eller flera tillgänglighetsredogörelser för sina webbplatser och mobila applikationer.
+
+Länk tillgänglighetsredogörelse publiceras i tjänstens sidfot. 
+
+### Resurser
+- [DIGGs tjänst för att skapa tillgänglighetsredogörelse](https://trg.digg.se/asg.php)
+- [Vägledning för webbutveckling - officiella riktlinjer](https://webbriktlinjer.se/)
+- [Kungliga bibliotekets tillgänglighetsredogörelser](https://www.kb.se/om-oss/tillganglighet-pa-kbs-webbplatser-och-digitala-tjanster.html)
