@@ -4,7 +4,7 @@ Listor används för att strukturera upp innehåll. Det finns tre varianter av l
 Använd tabeller om syftet är att presentera data.
 
 ### Oordnad
-Text
+Oordnade listor (ul) används då inbördes ordning inte är av större vikt, exempelvis vid en lista med länkar.  
 
 <div class="example-block bg-light">
 <ul>
@@ -29,7 +29,7 @@ Text
 </div>
 
 ### Ordnad
-Text
+Använd ordnade listor (ol) när punkterna behöver komma i en viss ordning, exempelvis vid instruktioner. 
 
 <div class="example-block bg-light">
 <ol>
@@ -54,7 +54,7 @@ Text
 </div>
 
 ### Definitionslista
-Text
+En definitionslista (dl) används för att förklara olika begrepp. 
 
 <div class="example-block bg-light">
 <dl>
@@ -70,7 +70,7 @@ Text
 </div>
 
 ### Tabell
-Text
+Välj mellan linjerad och randig tabell. Kolumner som består av enbart numeriska värden kan med fördel högerställas för att öka läsbarheten.
 
 <div class="example-block bg-light">
     <table class="table">
@@ -120,7 +120,7 @@ Text
 </div>
 
 ### Randig tabell
-Text
+
 
 <div class="example-block bg-light">
     <table class="table table-striped">
