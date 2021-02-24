@@ -5,7 +5,7 @@ KB har tre olika logotyper; en kombinerad logotyp med ikon och text, en logotyp 
 <span class="badge bg-info badge-icon text-dark"><i class="bi-download"></i></span> <button type="button" class="btn btn-primary btn-round">Ladda ner logotyper</button> <i>.zip, 000kb</i>
 
 <div class="gallery-block row">
-    <div class="gallery-item bg-light">
+    <div class="gallery-item col bg-light">
         <img class="x-50" src="vendor/assets/kb_logo_text_black.svg" />
     </div>
 </div>
