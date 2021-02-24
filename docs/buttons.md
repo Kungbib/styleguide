@@ -1,11 +1,10 @@
 ## Knappar
-Knappar används för att verkställa en handling. Knappen måste ha någon typ av fokusläge för att följa tillgänglighetsstandarder.
+Knappar används för att verkställa en handling. Knappen måste ha någon typ av fokusläge för att följa tillgänglighetsstandarder. Texten på en knapp ska vara kort och beskriva handlingen som knappen utför.
 
-Texten på en knapp ska vara kort och beskriva handlingen som knappen utför.
+Nedan presenteras några exempel på olika form- och färgkombinationer.
 
 ### Rundade
-
-Text om rundade knappar (nämn färgval)
+Rundade knappar anses ge ett mer vänligt intryck, men kan samtidigt vara svårare att linjera med övrigt innehåll. Välj efter behov och användningsområde.
 
 <div class="example-block bg-light">
     <div class="example">
@@ -38,8 +37,7 @@ Text om rundade knappar (nämn färgval)
 </div>
 
 ### Rektangulära
-
-Text om rektangulära knappar (nämn färgval)
+Även de rektangulära knapparna har en mindre rundning på hörnen. 
 
 <div class="example-block bg-light">
     <div class="example">
@@ -72,8 +70,7 @@ Text om rektangulära knappar (nämn färgval)
 </div>
 
 ### Textknappar
-
-Text om textknappar
+Knappar utan bakgrundsfärg eller ram kan användas som kontrast för att framhäva CTA (Call to Action). Textknappar kan också användas när användaren erbjuds flera val där inget är mer lämpligt än det andra.
 
 <div class="example-block bg-light">
     <div class="example">
@@ -106,5 +103,4 @@ Text om textknappar
 </div>
 
 ### I formulär
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id sapien dui. Aenean congue feugiat mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse nec urna in diam fringilla auctor eu vel nibh. Vivamus pellentesque tortor ut neque rhoncus scelerisque. Quisque ac scelerisque felis. Duis sit amet sem maximus, tempus ex a, facilisis odio. Sed pellentesque, nibh non finibus malesuada, est justo molestie magna, in egestas dolor orci vitae lectus. Aenean sit amet ipsum dui. Nulla felis dui, vulputate non pharetra a, feugiat a magna. Vivamus vitae enim magna.
+Tillämpa tillräckligt med visuell skillnad mellan formulärets olika knappar för att minska risken för felanvändning.
