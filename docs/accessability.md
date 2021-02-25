@@ -6,7 +6,7 @@ Kungliga biblioteket arbetar med att tillgängliggöra digitala tjänster och sy
 ### Tillgänglighetsredogörelse
 Enligt lagen om tillgänglighet till digital offentlig service ska alla offentliga aktörer regelbundet publicera en eller flera tillgänglighetsredogörelser för sina webbplatser och mobila applikationer.
 
-Länk tillgänglighetsredogörelse publiceras i tjänstens sidfot. 
+<span class="badge bg-info badge-icon text-dark"><i class="kbico-info"></i></span> Länk tillgänglighetsredogörelse publiceras i tjänstens sidfot. 
 
 ### Resurser
 - [DIGGs tjänst för att skapa tillgänglighetsredogörelse](https://trg.digg.se/asg.php)
