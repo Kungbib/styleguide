@@ -22,6 +22,8 @@ KB har tre olika logotyper; en kombinerad logotyp med ikon och text, en logotyp 
 
 ### Felaktig användning
 
+<span class="badge bg-info badge-icon text-dark"><i class="bi-eye"></i></span> Nedan presenteras några exempel på felaktigt användande av KBs logotyper.
+
 <div class="row">
     <div class="col-md-6">
         <img class="img-fluid" src="img/wrong_1.png" />
