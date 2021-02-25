@@ -3,4 +3,5 @@ node_modules
 theme/vendor/*
 theme/fonts/sentinel/*
 theme/fonts/roboto/*
+theme/fonts/kbico/*
 deploy.cfg

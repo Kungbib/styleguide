@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "../fonts/kbico/style.css";
 @font-face {
   font-family: "Sentinel";
   font-weight: 300;
@@ -239,6 +240,25 @@ body {
 }
 .example-type > span:last-child {
   font-weight: 600;
+}
+
+.example-icons {
+  display: flex;
+  flex-basis: 25%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.example-icons > div {
+  display: flex;
+  width: 10em;
+  align-items: baseline;
+}
+.example-icons > div > span {
+  font-size: 0.8rem;
+  padding: 0.25em;
+}
+.example-icons > div > span:first-child {
+  font-size: 1.4rem;
 }
 
 /*# sourceMappingURL=main.css.map */

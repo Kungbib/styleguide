@@ -79,3 +79,22 @@ body {
         font-weight: 600;
     }
 }
+
+.example-icons {
+    display: flex;
+    flex-basis: 25%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    > div {
+        display: flex;
+        width: 10em;
+        align-items: baseline;
+        > span {
+            &:first-child {
+                font-size: 1.4rem;
+            }
+            font-size: 0.8rem;
+            padding: 0.25em;
+        }
+    }
+}
