@@ -26,4 +26,4 @@ Använd KBs logotyp följt av tjänstens namn. Namnet skrivs med den sans-serif 
 ### Sidfot
 Använd sidfot då det finns behov av att signalera tjänstens avsändare och samt länka till övriga resurser.
 
-Som regel länkar KB till tjänstens tillgänglighetsredogörelse från sidfoten.
+<span class="badge bg-info badge-icon text-dark"><i class="bi-exclamation"></i></span> Som regel länkar KB till tjänstens tillgänglighetsredogörelse från sidfoten.
