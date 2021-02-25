@@ -4,7 +4,7 @@ Inom KBs digitala, grafiska profil förekommer tre typsnitt - Sentinel, Roboto o
 ### Rubriker
 Använd rubriker kontinuerligt för att skapa en tydlig hierarki. Huvudrubriken ska tydligt beskriva sidans innehåll och innefatta de viktigaste nyckelorden och sökorden. Den bör inte vara för lång. Använd bara en huvudrubrik per sida. 
 
-<span class="badge bg-info badge-icon text-dark"><i class="bi-exclamation"></i></span> Typgrad sätts i rem där rekommenderad storlek i roten är 16px. 
+<span class="badge bg-info badge-icon text-dark"><i class="kbico-exclamation"></i></span> Typgrad sätts i rem där rekommenderad storlek i roten är 16px. 
 
 <div class="example-block example-type bg-light">
 <h1>Rubriksnivå h1</h1>

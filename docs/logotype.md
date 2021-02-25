@@ -2,7 +2,7 @@
 
 KB har tre olika logotyper; en kombinerad logotyp med ikon och text, en logotyp enbart i text och en med enbart ikon.
 
-<span class="badge bg-info badge-icon text-dark"><i class="bi-download"></i></span> <button type="button" class="btn btn-primary btn-round">Ladda ner logotyper</button> <i>.zip, 000kb</i>
+<span class="badge bg-info badge-icon text-dark"><i class="kbico-download"></i></span> <button type="button" class="btn btn-primary btn-round">Ladda ner logotyper</button> <i>.zip, 000kb</i>
 
 <div class="gallery-block row">
     <div class="gallery-item col bg-light">
@@ -21,6 +21,8 @@ KB har tre olika logotyper; en kombinerad logotyp med ikon och text, en logotyp 
 </div>
 
 ### Felaktig användning
+
+<span class="badge bg-info badge-icon text-dark"><i class="kbico-eye"></i></span> Nedan presenteras några exempel på felaktigt användande av KBs logotyper.
 
 <div class="row">
     <div class="col-md-6">
