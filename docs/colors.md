@@ -82,7 +82,7 @@ Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#)
 
 Kungliga biblioteket har fyra klara, positiva färger. På kb.se används färgerna för att påvisa funktionalitet och uppmärksamma viktig info. Exempel på grafiska element som kan färgsättas: bakgrunder, interaktionselement och ikoner. Färgerna har alltså begränsad dekorativ funktion.
 
-Utöver dessa färgerna används även savrt, vitt och grå för att lyfta information.
+Utöver dessa färgerna används även svart, vitt och grå för att lyfta information.
 
 
 ### Sekundärfärger
@@ -125,7 +125,7 @@ Turkos eller Blå kan till fördel användas som länkfärg. Grå gör sig lämp
 
 ### Signalfärger
 
-Signalfärgerna används huvudsakligen vid validering av formuär eller vid dialogrutor.
+Signalfärgerna används huvudsakligen vid validering av formulär eller vid dialogrutor.
 
 <div class="example-block bg-light">
     <div class="row">
