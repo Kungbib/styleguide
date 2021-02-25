@@ -61,7 +61,7 @@ Gör det uppenbart för användaren att en länk just är en länk, genom att sk
 
 <div class="example-block bg-light">
 <a class="" href="#">Information om KB:s stilguide</a><br>
-<a class="text-kb-secondary-blue no-underline" href="#">Information om KB:s stilguide</a>
+<a class="text-kb-secondary-blue text-decoration-none" href="#">Information om KB:s stilguide</a>
 </div>
 <div class="example-block bg-light">
 <a class="" href="#">Besök KB:s sajt om samverkan</a><i class=""></i>
