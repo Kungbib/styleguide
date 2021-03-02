@@ -2,7 +2,7 @@
 Inom KBs stilguide ryms två ikonbibliotek och de bör användas separat. KBs egna ikonbibliotek KBico finns tillgängligt både som font och vektorgrafik. Även om ikoner kan uppfattas som självförklarande så bör de kompletteras med text.
 
 ### KBico
-Kungliga bibliotekets egna ikonbibliotek - KBico består av 53st ikoner, varav två versioner av vår lkogotyp. Biblioteket finns tillgängligt som såväl webfont som vektorgrafik.
+Kungliga bibliotekets egna ikonbibliotek - KBico består av 53st ikoner, varav två versioner av vår logotyp. Biblioteket finns tillgängligt som såväl webfont som vektorgrafik.
 
 <div class="example-block example-icons bg-light">
         <div><span><i class="kbico-kb-logo-text"></i></span>
@@ -119,7 +119,36 @@ Besök Bootstrap för exempel och implementation av ikonbiblioteket.
 ### Skyltar
 Använd skyltar om syftet är att lyfta fram ett specifikt budskap.
 
+<div class="example-block example-badges bg-light">
+<div class="row my-2">
+<div class="col-5 col-xs-3 col-lg-4 col-xl-3 d-flex align-items-center">
+<span class="badge bg-info badge-icon text-dark mx-1 mx-md-2"><i class="kbico-download"></i></span>
+<span class="badge bg-info badge-icon text-dark mx-1 mx-md-2"><i class="kbico-eye"></i></span>
+<span class="badge bg-info badge-icon text-dark mx-1 mx-md-2"><i class="kbico-exclamation"></i></span>
+</div>
+<div class="col-7 col-xs-9 col-lg-8 col-xl-9">
+    <div class="label">Uppmärksamhet</div>
+    <div class="description">$kb-primary-orange</div>
+</div>
+</div>
+<div class="row my-2">
+<div class="col-5 col-xs-3 col-lg-4 col-xl-3 d-flex align-items-center">
+<span class="badge bg-kb-primary-green badge-icon text-dark mx-1 mx-md-2"><i class="kbico-thumb-up"></i></span>
+<span class="badge bg-kb-primary-pink badge-icon text-dark mx-1 mx-md-2"><i class="kbico-thumb-down"></i></span>
+</div>
+<div class="col-7 col-xs-9 col-lg-8 col-xl-9">
+    <div class="label">Åsikt</div>
+    <div class="description">$kb-primary-green, $kb-primary-pink</div>
+</div>
+</div>
+</div>
+
 ### Bilder
 Använd textbeskrivning (oftast attributet alt) så att innehållet förmedlas även för den som inte kan se bilden. Det innebär oftast en kort beskrivning av motivet – eller av funktionen i de fall bilden används exempelvis som symbol på en knapp.
 
 Det är även rekommenderat att använda bildtext i anslutning till bilden. Det kan exempelvis röra sig om kompletterande uppgifter såsom upphovsuppgifter och datering.
+
+<div>
+    <img class="img-fluid" src="img/Codex_Gigas_liggande_format_beskuren.jpg" />
+    <p class="text-end">Codex Gigas</p>
+</div>

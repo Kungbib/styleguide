@@ -239,7 +239,7 @@ body {
   flex-direction: column;
 }
 .example-type > span:last-child {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .example-icons {
@@ -259,6 +259,14 @@ body {
 }
 .example-icons > div > span:first-child {
   font-size: 1.4rem;
+}
+
+.example-badges .label {
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+.example-badges .description {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=main.css.map */

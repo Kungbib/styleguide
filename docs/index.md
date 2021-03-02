@@ -3,7 +3,7 @@
     Detta är <a href="https://www.kb.se">Kungliga bibliotekets</a> stilguide. Stilguiden består av en samling riktlinjer och exempel som är tänka att underlätta gränssnittsutveckling i KB:s digitala tjänster.
 </p>
 <p class="lead">
-    Källkoden är öppen och finns tillgänglig på <a href="https://github.com/Kungbib/styleguide">GitHub</a>. Dessa sidor skapas utifrån koden som ligger där.
+    Källkoden är öppen och finns tillgänglig på <a href="https://github.com/Kungbib/styleguide">GitHub</a>.
 </p>
 
 {% include 'logotype.md' %}
