@@ -150,5 +150,5 @@ Det är även rekommenderat att använda bildtext i anslutning till bilden. Det 
 
 <div>
     <img class="img-fluid" src="img/Codex_Gigas_liggande_format_beskuren.jpg" />
-    <p class="text-end">Codex Gigas</p>
+    <p class="img-desc text-end">Codex Gigas</p>
 </div>

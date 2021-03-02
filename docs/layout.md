@@ -23,7 +23,13 @@ En effektiv och tydlig visuell hierarki hjälper användaren både att ta till s
 ### Sidhuvud
 Använd KBs logotyp följt av tjänstens namn. Namnet skrivs med den sans-serif som i övrigt används i tjänsten.
 
+<div class="example-block bg-light">
+</div>
+
 ### Sidfot
 Använd sidfot då det finns behov av att signalera tjänstens avsändare och samt länka till övriga resurser.
+
+<div class="example-block bg-light">
+</div>
 
 <span class="badge bg-info badge-icon text-dark"><i class="kbico-exclamation"></i></span> Som regel länkar KB till tjänstens tillgänglighetsredogörelse från sidfoten.

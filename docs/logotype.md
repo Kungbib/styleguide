@@ -27,13 +27,13 @@ KB har tre olika logotyper; en kombinerad logotyp med ikon och text, en logotyp 
 <div class="row">
     <div class="col-md-6">
         <img class="img-fluid" src="img/wrong_1.png" />
-        <p>
+        <p class="img-desc">
             Kombinera inte de olika logotyperna.
         </p>
     </div>
     <div class="col-md-6">
         <img class="img-fluid" src="img/wrong_2.png" />
-        <p>
+        <p class="img-desc">
             Rotera aldrig logotyperna.
         </p>
     </div>
@@ -41,13 +41,13 @@ KB har tre olika logotyper; en kombinerad logotyp med ikon och text, en logotyp 
 <div class="row">
     <div class="col-md-6">
         <img class="img-fluid" src="img/wrong_3.png" />
-        <p>
+        <p class="img-desc">
             Byt inte färg.
         </p>
     </div>
     <div class="col-md-6">
         <img class="img-fluid" src="img/wrong_4.png" />
-        <p>
+        <p class="img-desc">
             Byt inte bakgrundsfärg.
         </p>
     </div>
@@ -55,7 +55,7 @@ KB har tre olika logotyper; en kombinerad logotyp med ikon och text, en logotyp 
 <div class="row">
     <div class="col-md-6">
         <img class="img-fluid" src="img/wrong_5.png" />
-        <p>
+        <p class="img-desc">
             Sänk inte opaciteten.
         </p>
     </div>
