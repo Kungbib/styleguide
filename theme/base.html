@@ -88,16 +88,26 @@
                     <div class="col-md-9 margin-bottom" role="main">{% include "content.html" %}</div>
                 {%- endblock %}
             </div>
+            <div class="d-none d-md-block vh-50"></div>
         </div>
 
-        <footer class="col-md-12">
-          {%- block footer %}
-            <hr>
-            {%- if config.copyright %}
-                <p>{{ config.copyright }}</p>
-            {%- endif %}
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-          {%- endblock %}
+        <footer class="bd-footer p-2 p-md-3 mt-5 bg-dark text-light text-center text-sm-start">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <img class="w-50 d-lg-inline d-md-none d-none" src="vendor/assets/kb_logo_text_white.svg">
+                <img class="w-75 d-md-inline d-lg-none d-none" src="vendor/assets/kb_logo_text_white.svg">
+                <img class="w-50 d-md-none d-inline" src="vendor/assets/kb_logo_text_white.svg">
+              </div>
+              <div class="col-md-9 d-flex flex-column justify-content-center">
+                <p class="mb-0">Tillgänglighetsredogörelse lorem ipsum en länk kanske här.</p>
+                <ul class="bd-footer-links ps-0 mb-3 text-light">
+                  <li class="d-inline-block"><a class="text-light" href="https://github.com/Kungbib/styleguide">Stilguiden på GitHub</a></li>
+                  <li class="d-inline-block ms-3"><a class="text-light" href="https://github.com/Kungbib/styles">Stilpaketet på GitHub</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </footer>
 
       {%- block scripts %}
