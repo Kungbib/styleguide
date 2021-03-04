@@ -149,6 +149,6 @@ Använd textbeskrivning (oftast attributet alt) så att innehållet förmedlas �
 Det är även rekommenderat att använda bildtext i anslutning till bilden. Det kan exempelvis röra sig om kompletterande uppgifter såsom upphovsuppgifter och datering.
 
 <div>
-    <img class="img-fluid" src="img/Codex_Gigas_liggande_format_beskuren.jpg" />
+    <img class="img-fluid" src="img/Codex_Gigas_liggande_format_beskuren.jpg" alt="Codex Gigas - Djävulsbibeln fotograferad liggandes från sidan."/>
     <p class="img-desc text-end">Codex Gigas</p>
 </div>
