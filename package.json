@@ -16,7 +16,7 @@
     "create_vendor": "mkdir -p ./theme/vendor/",
     "copy_vendor": "yarn run create_vendor && yarn run copy_styles && yarn run copy_assets && yarn run copy_bootstrap",
     "copy_bootstrap": "mkdir -p ./theme/vendor/js/ && cp -r ./node_modules/bootstrap/dist/js/bootstrap.min.js ./theme/vendor/js/",
-    "copy_styles": "cp -r ./node_modules/kungbib-styles/lib/css/ ./theme/vendor/",
+    "copy_styles": "#cp -r ./node_modules/kungbib-styles/lib/. ./theme/vendor/",
     "copy_assets": "mkdir -p ./theme/vendor/assets && cp -r ./node_modules/kungbib-styles/lib/assets/ ./theme/vendor/",
     "sass:build": "sass ./theme/styles/main.scss:./theme/css/main.css",
     "sass:watch": "sass --watch --poll theme/styles/main.scss:theme/css/main.css",
