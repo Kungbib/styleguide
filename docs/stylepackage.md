@@ -48,10 +48,14 @@ Text och bakgrunder kan enkelt färgas genom att använda `.bg-*` eller `.text-*
 
 ---
 `.bg-kb-primary-green` ger en bakgrundsfärg enligt variabeln `$kb-primary-green`:
-<div class="bg-kb-primary-green">Exempel på färgad panel</div>
+<div class="example-block bg-light">
+    <div class="bg-kb-primary-green p-2">Exempel på färgad panel</div>
+</div>
 
 ---
 
 `.text-kb-secondary-turquoise` ger en textfärg enligt variabeln `$kb-secondary-turquoise`:
 
-<div class="text-kb-secondary-turquoise">Exempel på färgad text</div>
+<div class="example-block bg-light">
+    <div class="text-kb-secondary-turquoise p-2">Exempel på färgad text</div>
+</div>
