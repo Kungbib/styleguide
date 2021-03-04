@@ -1,6 +1,6 @@
-## Stilmall
+## Stilpaket
 
-Som ett komplement till stilguiden finns även [Kungbib/styles](https://github.com/Kungbib/styles), ett stilmallspaket som bygger på [Bootstrap 5](https://getbootstrap.com/docs/5.0/).
+Som ett komplement till stilguiden finns även [Kungbib/styles](https://github.com/Kungbib/styles), ett stilpaket med bilder, ikoner och en stilmall som bygger på [Bootstrap 5](https://getbootstrap.com/docs/5.0/).
 
 Paketet riktar sig till den som vill ha en stabil utgångspunkt för sin tjänstedesign, och kommer med både paketerade CSS-filer och opaketerade Sass-filer.
 

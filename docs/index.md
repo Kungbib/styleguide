@@ -24,4 +24,4 @@
 
 {% include 'accessability.md' %}
 
-{% include 'stylesheet.md' %}
+{% include 'stylepackage.md' %}
