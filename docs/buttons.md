@@ -42,7 +42,7 @@ Rundade knappar anses ge ett mer vänligt intryck, men kan samtidigt vara svåra
 <div class="example-block bg-light">
     <div class="example">
         <div class="col-4 col-sm-3">
-            <button type="button" class="btn btn-turquoise">Default</button>
+            <button type="button" class="btn btn-kb-secondary-turquoise">Default</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -51,7 +51,7 @@ Rundade knappar anses ge ett mer vänligt intryck, men kan samtidigt vara svåra
     </div>
     <div class="example">
         <div class="col-4 col-sm-3">
-            <button type="button" class="btn btn-turquoise">Hover</button>
+            <button type="button" class="btn btn-kb-secondary-turquoise">Hover</button>
         </div>
         <div>
             <span>ROBOTO</span>
@@ -60,7 +60,7 @@ Rundade knappar anses ge ett mer vänligt intryck, men kan samtidigt vara svåra
     </div>
     <div class="example">
         <div class="col-4 col-sm-3">
-            <button type="button" class="btn btn-turquoise">Focus</button>
+            <button type="button" class="btn btn-kb-secondary-turquoise">Focus</button>
         </div>
         <div>
             <span>ROBOTO</span>
