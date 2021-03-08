@@ -1,6 +1,10 @@
 ## Typografi
 Inom KBs digitala, grafiska profil förekommer tre typsnitt - Sentinel, Roboto och Open Sans. För rubriker och ingress används i första hand Sentinel och kombineras med antingen Roboto eller Open Sans. Genom att använda typsnitten konsekvent genom hela vår identitet skapar vi igenkänning.
 
+* [Ladda ner Sentinel här](https://www.kb.se/webdav/files/System/resources/fonts/sentinel-web/sentinel_web.zip)
+* [Ladda ner Roboto här](https://fonts.google.com/specimen/Roboto?preview.text_type=custom)
+* [Ladda ner Open Sans här](https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom)
+
 ### Rubriker
 Använd rubriker kontinuerligt för att skapa en tydlig hierarki. Huvudrubriken ska tydligt beskriva sidans innehåll och innefatta de viktigaste nyckelorden och sökorden. Den bör inte vara för lång. Använd bara en huvudrubrik per sida. 
 
@@ -15,7 +19,7 @@ Använd rubriker kontinuerligt för att skapa en tydlig hierarki. Huvudrubriken 
 <div class="example-block example-type bg-light">
 <h2>Rubriksnivå h2</h2>
 <span>SENTINEL</span>
-<span class="strong">semibold, 2.375rem</span>
+<span>semibold, 2.375rem</span>
 </div>
 
 <div class="example-block example-type bg-light">

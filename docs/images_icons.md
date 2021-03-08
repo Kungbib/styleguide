@@ -4,6 +4,8 @@ Inom KBs stilguide ryms två ikonbibliotek och de bör användas separat. KBs eg
 ### KBico
 Kungliga bibliotekets egna ikonbibliotek - KBico består av 53st ikoner, varav två versioner av vår logotyp. Biblioteket finns tillgängligt som såväl webfont som vektorgrafik.
 
+<span class="badge bg-info badge-icon text-dark"><i class="kbico-download"></i></span> <a  class="btn btn-outline-primary btn-round" href="dl/kbico.zip">Ladda ner kbico</a> <i>.zip</i>
+
 <div class="example-block example-icons bg-light">
         <div><span><i class="kbico-kb-logo-text"></i></span>
             <span>kb-logo-text</span></div>

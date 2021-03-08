@@ -32,11 +32,6 @@
         &:first-child {
         }
         &:last-child {
-            span {
-                &:first-child {
-                    font-weight: 600;   
-                }
-            }
             flex-grow: 1;
             display: flex;
         }
@@ -98,4 +93,8 @@
     .description {
         font-weight: 500;
     }
+}
+
+.example-buttons {
+
 }

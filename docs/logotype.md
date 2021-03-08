@@ -2,7 +2,7 @@
 
 KB har tre olika logotyper; en kombinerad logotyp med ikon och text, en logotyp enbart i text och en med enbart ikon.
 
-<span class="badge bg-info badge-icon text-dark"><i class="kbico-download"></i></span> <button type="button" class="btn btn-primary btn-round">Ladda ner logotyper</button> <i>.zip, 000kb</i>
+<span class="badge bg-info badge-icon text-dark"><i class="kbico-download"></i></span> <a  class="btn btn-outline-primary btn-round" href="dl/assets.zip">Ladda ner logotyper</a> <i>.zip</i>
 
 <div class="gallery-block row">
     <div class="gallery-item col bg-light">
