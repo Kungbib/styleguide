@@ -2,7 +2,7 @@
 
 Använd KB's färgpalett. Behöver tjänsten egna färger glöm ej att de måste vara anpassade för webben och kontrastrika ur tillgänglighetsaspekt.
 
-Färgkontrasten för text och interaktiva element ska följa [W3C's standard](#).
+Färgkontrasten för text och interaktiva element ska följa [W3C's standard](https://www.w3.org/TR/2008/REC-WCAG20-20081211/).
 
 ### Primärfärger
 
