@@ -95,6 +95,12 @@
     }
 }
 
-.example-buttons {
-
+.example-button {
+    .description {
+        span {
+            &:last-child {
+                font-weight: 500;
+            }
+        }
+    }
 }
