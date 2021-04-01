@@ -134,7 +134,7 @@ Signalfärgerna används huvudsakligen vid validering av formulär eller vid dia
             <div class="example-color-description">
                 <span>Röd</span>
                 <span>$kb-signal-red</span>
-                <span>#058194</span>
+                <span>#D1333A</span>
                 <span>R209 G51 B58</span>
             </div>
         </div>
@@ -143,7 +143,7 @@ Signalfärgerna används huvudsakligen vid validering av formulär eller vid dia
             <div class="example-color-description">
                 <span>Gul</span>
                 <span>$kb-signal-yellow</span>
-                <span>#236FC8</span>
+                <span>#F4B54F</span>
                 <span>R244 G181 B79</span>
             </div>
         </div>
@@ -154,7 +154,7 @@ Signalfärgerna används huvudsakligen vid validering av formulär eller vid dia
             <div class="example-color-description">
                 <span>Grön</span>
                 <span>$kb-signal-green</span>
-                <span>#707070</span>
+                <span>#01C281</span>
                 <span>R1 G194 B129</span>
             </div>
         </div>
