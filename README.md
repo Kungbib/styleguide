@@ -24,7 +24,10 @@ Create your config
 $ cp deploy.cfg.ln deploy.cfg
 ```
 
-* Enter your deploy destination in `deploy.cfg`
+* Enter your deploy conf in `deploy.cfg`
+  * `USERNAME` - username on host
+  * `HOST` - ie "multiweb.kb.se" or similar
+  * `REMOTE_DIR` - ie "/var/www/html/myfolder" or similar
 
 ### Assets folder
 
