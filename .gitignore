@@ -5,3 +5,4 @@ theme/fonts/sentinel/*
 theme/fonts/roboto/*
 theme/fonts/kbico/*
 deploy.cfg
+.venv/
