@@ -6,13 +6,29 @@ This repository only contains the source for the documentation of the styleguide
 ## Requirements
 * Python 3
 * Yarn
-* Sass
+* Sass (`npm install -g sass`)
 
 ## Setup
 
 ```
 $ pip install -r requirements.txt
+
+$ yarn install
 ```
+
+### Config host
+
+Create your config
+
+```
+$ cp deploy.cfg.ln deploy.cfg
+```
+
+* Enter your deploy destination in `deploy.cfg`
+
+### Assets folder
+
+-
 
 ## Building the project
 
@@ -25,3 +41,12 @@ Build for production
 ```
 $ yarn build
 ```
+
+## Deploying
+
+Make sure you have configured `deploy.cfg` (see above)
+
+```
+$ yarn deploy
+```
+
