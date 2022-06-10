@@ -6,13 +6,32 @@ This repository only contains the source for the documentation of the styleguide
 ## Requirements
 * Python 3
 * Yarn
-* Sass
+* Sass (`npm install -g sass`)
 
 ## Setup
 
 ```
 $ pip install -r requirements.txt
+
+$ yarn install
 ```
+
+### Config host
+
+Create your config
+
+```
+$ cp deploy.cfg.ln deploy.cfg
+```
+
+* Enter your deploy conf in `deploy.cfg`
+  * `USERNAME` - username on host
+  * `HOST` - ie "multiweb.kb.se" or similar
+  * `REMOTE_DIR` - ie "/var/www/html/myfolder" or similar
+
+### Assets folder
+
+-
 
 ## Building the project
 
@@ -25,3 +44,12 @@ Build for production
 ```
 $ yarn build
 ```
+
+## Deploying
+
+Make sure you have configured `deploy.cfg` (see above)
+
+```
+$ yarn deploy
+```
+
