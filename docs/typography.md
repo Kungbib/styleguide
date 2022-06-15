@@ -1,7 +1,7 @@
 ## Typografi
 Inom KBs digitala, grafiska profil förekommer tre typsnitt - Sentinel, Roboto och Open Sans. För rubriker och ingress används i första hand Sentinel och kombineras med antingen Roboto eller Open Sans. Genom att använda typsnitten konsekvent genom hela vår identitet skapar vi igenkänning.
 
-* ~~Ladda ner Sentinel~~ (Kontakta kommunikationsavdelningen)
+* <s>Ladda ner Sentinel</s> (Kontakta kommunikationsavdelningen)
 * [Ladda ner Roboto](https://fonts.google.com/specimen/Roboto?preview.text_type=custom)
 * [Ladda ner Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom)
 
