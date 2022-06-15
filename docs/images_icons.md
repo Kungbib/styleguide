@@ -1,6 +1,8 @@
 ## Bilder & ikoner
 Inom KBs stilguide ryms två ikonbibliotek och de bör användas separat. KBs egna ikonbibliotek KBico finns tillgängligt både som font och vektorgrafik. Även om ikoner kan uppfattas som självförklarande så bör de kompletteras med text.
 
+Favicons hittar du under [Logotyp/Favicons](#favicons).
+
 ### KBico
 Kungliga bibliotekets egna ikonbibliotek - KBico består av 53st ikoner, varav två versioner av vår logotyp. Biblioteket finns tillgängligt som såväl webfont som vektorgrafik.
 
