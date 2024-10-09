@@ -20,7 +20,6 @@
     {%- endmacro %}
     <div id="toc-collapse" class="navbar-collapse collapse">
         <ul class="nav flex-column">
-        <li class="nav-item" data-level="1"><a href="#intro" class="nav-link">Inledning</a></li>
         {%- for item in page.toc %}
             {{ toc_item(item) }}
         {%- endfor %}

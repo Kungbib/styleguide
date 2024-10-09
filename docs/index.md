@@ -1,4 +1,4 @@
-<!-- <h1 id="intro">Stilguide.</h1> -->
+<h1 id="intro">Stilguide.</h1>
 {% include 'intro.md' %}
 
 {% include 'logotype.md' %}
