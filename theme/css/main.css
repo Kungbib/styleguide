@@ -10650,6 +10650,7 @@ fieldset legend {
 }
 #toc-collapse .nav-link {
   padding: 0rem;
+  text-decoration: underline;
 }
 #toc-collapse .nav-link:not(.active) + .subnav {
   display: none;

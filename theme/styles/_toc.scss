@@ -12,6 +12,7 @@
     }
     .nav-link {
         padding: 0rem;
+        text-decoration: underline;
     }
     .nav-link:not(.active) + .subnav {
         display: none;
