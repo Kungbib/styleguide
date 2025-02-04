@@ -2,7 +2,7 @@
 
 Om du har frågor gällande användning stilguiden eller vill ha ett bollplank att prata design med, så är du välkommen att höra av dig till gruppen som ansvarar för innehållet. 
 
-Emma Dahl, Interaktionsdesigner
+Anja Bergman, Interaktionsdesigner
 
 Krzysztof Bergendahl, Systemutvecklare
 
