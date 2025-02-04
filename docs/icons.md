@@ -1,10 +1,12 @@
-## Bilder & ikoner
-Inom KBs stilguide ryms två ikonbibliotek och de bör användas separat. KBs egna ikonbibliotek KBico finns tillgängligt både som font och vektorgrafik. Även om ikoner kan uppfattas som självförklarande så bör de kompletteras med text.
+## Ikoner
+Ikoner kan användas för att förstärka syftet med funktionalitet i tjänsten. Även om ikoner kan uppfattas som självförklarande så bör de kompletteras med text. 
 
-Favicons hittar du under [Logotyp/Favicons](#favicons).
+### Bootstrap Icons
+
+Ikoner från Bootstrap rekommenderas i första hand för KB:s digitala tjänster. [Besök Bootstrap](https://icons.getbootstrap.com) för exempel och implementation av ikonbiblioteket. 
 
 ### KBico
-Kungliga bibliotekets egna ikonbibliotek - KBico består av 53st ikoner, varav två versioner av vår logotyp. Biblioteket finns tillgängligt som såväl webfont som vektorgrafik.
+Kungliga bibliotekets egna ikonbibliotek - KBico består av 53st ikoner, varav två versioner av vår logotyp. Biblioteket finns tillgängligt som såväl webfont som vektorgrafik. 
 
 <span class="badge bg-info badge-icon text-dark"><i class="kbico-download"></i></span> <a  class="btn btn-outline-primary btn-round" href="dl/kbico.zip">Ladda ner kbico</a> <i>.zip</i>
 
@@ -117,42 +119,10 @@ Kungliga bibliotekets egna ikonbibliotek - KBico består av 53st ikoner, varav t
             <span>mouth</span></div>
 </div>
 
-### Bootstrap Icons
-Besök Bootstrap för exempel och implementation av ikonbiblioteket.
+### Font Awesome
 
-### Skyltar
-Använd skyltar om syftet är att lyfta fram ett specifikt budskap.
+Font Awesome används på Interno. Besök Font Awesome för att exempel och implementation av ikonbiblioteket. 
 
-<div class="example-block example-badges bg-light">
-<div class="row my-2">
-<div class="col-5 col-xs-3 col-lg-4 col-xl-3 d-flex align-items-center">
-<span class="badge bg-info badge-icon text-dark mx-1 mx-md-2"><i class="kbico-download"></i></span>
-<span class="badge bg-info badge-icon text-dark mx-1 mx-md-2"><i class="kbico-eye"></i></span>
-<span class="badge bg-info badge-icon text-dark mx-1 mx-md-2"><i class="kbico-exclamation"></i></span>
-</div>
-<div class="col-7 col-xs-9 col-lg-8 col-xl-9">
-    <div class="label">Uppmärksamhet</div>
-    <div class="description">$kb-primary-orange</div>
-</div>
-</div>
-<div class="row my-2">
-<div class="col-5 col-xs-3 col-lg-4 col-xl-3 d-flex align-items-center">
-<span class="badge bg-kb-primary-green badge-icon text-dark mx-1 mx-md-2"><i class="kbico-thumb-up"></i></span>
-<span class="badge bg-kb-primary-pink badge-icon text-dark mx-1 mx-md-2"><i class="kbico-thumb-down"></i></span>
-</div>
-<div class="col-7 col-xs-9 col-lg-8 col-xl-9">
-    <div class="label">Åsikt</div>
-    <div class="description">$kb-primary-green, $kb-primary-pink</div>
-</div>
-</div>
-</div>
+### Ikon för uppmärksamhet
 
-### Bilder
-Använd textbeskrivning (oftast attributet alt) så att innehållet förmedlas även för den som inte kan se bilden. Det innebär oftast en kort beskrivning av motivet – eller av funktionen i de fall bilden används exempelvis som symbol på en knapp.
-
-Det är även rekommenderat att använda bildtext i anslutning till bilden. Det kan exempelvis röra sig om kompletterande uppgifter såsom upphovsuppgifter och datering.
-
-<div>
-    <img class="img-fluid" src="img/Codex_Gigas_liggande_format_beskuren.jpg" alt="Codex Gigas - Djävulsbibeln fotograferad liggandes från sidan."/>
-    <p class="img-desc text-end">Codex Gigas</p>
-</div>
+Använd ikoner för uppmärksamhet när syftet är att lyfta fram ett specifikt budskap. Dessa ska formges med orange bakgrund som standard, men rosa och grön kan användas vid behov. Notera att denna typ av ikon inte ska användas i kombination med länkar, eftersom det kan skapa förvirring för användaren då ikonen inte är klickbar. 
