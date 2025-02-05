@@ -19,10 +19,10 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-pink-complementary ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-complementary-pink ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Rosa, komplement</span>
-                <span>$kb-primary-pink-complementary</span>
+                <span>$kb-complementary-pink</span>
                 <span>#FDEDF1</span>
             </div>
         </div>
@@ -37,10 +37,10 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-blue-complementary ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-complementary-blue ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Blå, komplement</span>
-                <span>$kb-primary-blue-complementary</span>
+                <span>$kb-complementary-blue</span>
                 <span>#E0F0FB</span>
             </div>
         </div>
@@ -55,10 +55,10 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-green-complementary ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-complementary-green ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Grön, komplement</span>
-                <span>$kb-primary-green-complementary</span>
+                <span>$kb-complementary-green</span>
                 <span>#E2EED4</span>
             </div>
         </div>
@@ -73,10 +73,10 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-orange-complementary ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-complementary-orange ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Orange, komplement</span>
-                <span>$kb-primary-orange-complementary</span>
+                <span>$kb-complementary-orange</span>
                 <span>#FDECCF</span>
             </div>
         </div>
@@ -91,10 +91,10 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-peach-complementary ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-complementary-peach ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Aprikos, komplement</span>
-                <span>$kb-primary-peach-complementary</span>
+                <span>$kb-complementary-peach</span>
                 <span>#FDE5DA</span>
             </div>
         </div>
