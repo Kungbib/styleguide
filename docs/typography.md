@@ -7,6 +7,17 @@ Rubrikerna h3 och h4 kan varieras med typsnittet Roboto eller Open Sans. Roboto 
 
 Rubriker och brödtext ska normalt sett vara vänsterställda, men vissa undantag kan göras såsom centrerade rubriker. Vid responsiv design, kan man behöva justera storleken på rubrikerna för att de ska vara läsbara på mindre skärmar, t ex mobiler som kan behöva ett större rubrikformat.
 
-* <s>Ladda ner Sentinel</s> (Kontakta kommunikationsavdelningen)
+**Sentinel**  
+Det enklaste sättet att använda Sentinel i ditt projekt är att importera denna CSS-fil från Kungliga bibliotekets CDN:
+
+```
+@import url('https://cdn.kb.se/fonts/sentinel/sentinel.css');
+```
+
+Användandet av Sentinel begränsas genom CORS-headers till följande origins:  
+`kb.se`, `*.kb.se`, `kb.se.localhost`, `*.kb.se.localhost` och `localhost`
+
+**Roboto och Open Sans**
+
 * [Ladda ner Roboto](https://fonts.google.com/specimen/Roboto?preview.text_type=custom)
 * [Ladda ner Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom)
