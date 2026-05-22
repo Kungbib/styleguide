@@ -1,4 +1,4 @@
-site_name: Kungliga bibliotekets stilguide
+site_name: Kungliga bibliotekets stilguide för digitala tjänster
 docs_dir: './docs'
 site_dir: './build'
 theme:

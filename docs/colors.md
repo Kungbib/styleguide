@@ -4,7 +4,7 @@ Använd KB:s färgpalett. Färgkontrasten för text och interaktiva element ska 
 
 ### Primärfärger
 
-Kungliga biblioteket har fem standardfärger och fem komplementfärger i ljusare nyans. På kb.se används färgerna för att påvisa funktionalitet och uppmärksamma viktig info. Exempel på grafiska element som kan färgsättas: bakgrunder, interaktionselement och ikoner. Färgerna har alltså begränsad dekorativ funktion. Rekommendationen är att välja en primärfärg och använda de andra som accentfärger för olika funktioner. 
+Kungliga biblioteket har fem standardfärger. På kb.se används färgerna för att påvisa funktionalitet och uppmärksamma viktig info. Exempel på grafiska element som kan färgsättas: bakgrunder, interaktionselement och ikoner. Färgerna har alltså begränsad dekorativ funktion. Rekommendationen är att välja en primärfärg och använda de andra som accentfärger för olika funktioner. 
 
 Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med den valda primärfärgen. 
 
@@ -21,7 +21,7 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
         <div class="example-color col-10 col-sm-8 col-lg-6">
             <div class="example-color-circle bg-kb-complementary-pink ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Rosa, komplement</span>
+                <span>Rosa, ljus</span>
                 <span>$kb-complementary-pink</span>
                 <span>#FDEDF1</span>
             </div>
@@ -39,7 +39,7 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
         <div class="example-color col-10 col-sm-8 col-lg-6">
             <div class="example-color-circle bg-kb-complementary-blue ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Blå, komplement</span>
+                <span>Blå, ljus</span>
                 <span>$kb-complementary-blue</span>
                 <span>#E0F0FB</span>
             </div>
@@ -57,7 +57,7 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
         <div class="example-color col-10 col-sm-8 col-lg-6">
             <div class="example-color-circle bg-kb-complementary-green ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Grön, komplement</span>
+                <span>Grön, ljus</span>
                 <span>$kb-complementary-green</span>
                 <span>#E2EED4</span>
             </div>
@@ -75,7 +75,7 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
         <div class="example-color col-10 col-sm-8 col-lg-6">
             <div class="example-color-circle bg-kb-complementary-orange ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Orange, komplement</span>
+                <span>Orange, ljus</span>
                 <span>$kb-complementary-orange</span>
                 <span>#FDECCF</span>
             </div>
@@ -93,7 +93,7 @@ Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med
         <div class="example-color col-10 col-sm-8 col-lg-6">
             <div class="example-color-circle bg-kb-complementary-peach ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Aprikos, komplement</span>
+                <span>Aprikos, ljus</span>
                 <span>$kb-complementary-peach</span>
                 <span>#FDE5DA</span>
             </div>
@@ -112,7 +112,7 @@ Signalfärgerna används huvudsakligen vid validering av formulär eller vid dia
         <div class="example-color col-10 col-sm-8 col-lg-6">
             <div class="example-color-circle bg-kb-signal-red ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Röd</span>
+                <span>Röd / Danger</span>
                 <span>$kb-signal-red</span>
                 <span>#D1333A</span>
             </div>
@@ -120,7 +120,7 @@ Signalfärgerna används huvudsakligen vid validering av formulär eller vid dia
         <div class="example-color col-10 col-sm-8 col-lg-6">
             <div class="example-color-circle bg-kb-signal-yellow ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Gul</span>
+                <span>Gul / Warning</span>
                 <span>$kb-signal-yellow</span>
                 <span>#F4B54F</span>
             </div>
@@ -130,7 +130,7 @@ Signalfärgerna används huvudsakligen vid validering av formulär eller vid dia
         <div class="example-color col-10 col-sm-8 col-lg-6">
             <div class="example-color-circle bg-kb-signal-green ratio ratio-1x1"></div>
             <div class="example-color-description">
-                <span>Grön</span>
+                <span>Grön / Success</span>
                 <span>$kb-signal-green</span>
                 <span>#01C281</span>
             </div>

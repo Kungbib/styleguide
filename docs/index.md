@@ -1,4 +1,4 @@
-<h1 id="intro">Kungliga bibliotekets stilguide</h1>
+<h1 id="intro">Kungliga bibliotekets stilguide för digitala tjänster</h1>
 {% include 'intro.md' %}
 
 {% include 'logotype.md' %}
