@@ -5,14 +5,14 @@ This repository only contains the source for the documentation of the styleguide
 
 ## Requirements
 * Python 3
-* Yarn
+* NPM
 
 ## Setup
 
 ```
 $ pip install -r requirements.txt
 
-$ yarn install
+$ npm install
 ```
 
 ### Config host
@@ -36,12 +36,12 @@ $ cp deploy.cfg.ln deploy.cfg
 
 Development server
 ```
-$ yarn serve
+$ npm serve
 ```
 
 Build for production
 ```
-$ yarn build
+$ npm build
 ```
 
 ## Deploying
@@ -49,6 +49,6 @@ $ yarn build
 Make sure you have configured `deploy.cfg` (see above)
 
 ```
-$ yarn deploy
+$ npm deploy
 ```
 
