@@ -1,6 +1,137 @@
 @charset "UTF-8";
+@import url("https://cdn.kb.se/fonts/kb/KBDisplay.css");
+@import url("https://cdn.kb.se/fonts/kb/KBSans.css");
+@import url("https://cdn.kb.se/fonts/kb/KBSerif.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 @import "../fonts/kbico/style.css";
+.bg-kb-black {
+  background-color: #000000 !important;
+}
+
+.text-kb-black {
+  color: #000000 !important;
+}
+
+.bg-kb-white {
+  background-color: #FFFFFF !important;
+}
+
+.text-kb-white {
+  color: #FFFFFF !important;
+}
+
+.bg-kb-gray {
+  background-color: #F9F9F9 !important;
+}
+
+.text-kb-gray {
+  color: #F9F9F9 !important;
+}
+
+.bg-kb-green {
+  background-color: #B1D18B !important;
+}
+
+.text-kb-green {
+  color: #B1D18B !important;
+}
+
+.bg-kb-pink {
+  background-color: #FD6B8E !important;
+}
+
+.text-kb-pink {
+  color: #FD6B8E !important;
+}
+
+.bg-kb-blue {
+  background-color: #65C6FD !important;
+}
+
+.text-kb-blue {
+  color: #65C6FD !important;
+}
+
+.bg-kb-orange {
+  background-color: #F4B54F !important;
+}
+
+.text-kb-orange {
+  color: #F4B54F !important;
+}
+
+.bg-kb-apricot {
+  background-color: #F7A07B !important;
+}
+
+.text-kb-apricot {
+  color: #F7A07B !important;
+}
+
+.bg-kb-green-light {
+  background-color: #E2EED4 !important;
+}
+
+.text-kb-green-light {
+  color: #E2EED4 !important;
+}
+
+.bg-kb-pink-light {
+  background-color: #FDEDF1 !important;
+}
+
+.text-kb-pink-light {
+  color: #FDEDF1 !important;
+}
+
+.bg-kb-blue-light {
+  background-color: #E0F0FB !important;
+}
+
+.text-kb-blue-light {
+  color: #E0F0FB !important;
+}
+
+.bg-kb-orange-light {
+  background-color: #FDECCF !important;
+}
+
+.text-kb-orange-light {
+  color: #FDECCF !important;
+}
+
+.bg-kb-apricot-light {
+  background-color: #FDE5DA !important;
+}
+
+.text-kb-apricot-light {
+  color: #FDE5DA !important;
+}
+
+.bg-kb-danger {
+  background-color: #D1333A !important;
+}
+
+.text-kb-danger {
+  color: #D1333A !important;
+}
+
+.bg-kb-warning {
+  background-color: #F4B54F !important;
+}
+
+.text-kb-warning {
+  color: #F4B54F !important;
+}
+
+.bg-kb-success {
+  background-color: #01C281 !important;
+}
+
+.text-kb-success {
+  color: #01C281 !important;
+}
+
 .bg-kb-primary-black {
   background-color: #000000 !important;
 }
@@ -187,7 +318,7 @@
   --bs-primary: #000000;
   --bs-secondary: #B1D18B;
   --bs-success: #01C281;
-  --bs-info: #F4B54F;
+  --bs-info: #65C6FD;
   --bs-warning: #F4B54F;
   --bs-danger: #D1333A;
   --bs-light: #FFFFFF;
@@ -196,7 +327,7 @@
   --bs-primary-rgb: 0, 0, 0;
   --bs-secondary-rgb: 177, 209, 139;
   --bs-success-rgb: 1, 194, 129;
-  --bs-info-rgb: 244, 181, 79;
+  --bs-info-rgb: 101, 198, 253;
   --bs-warning-rgb: 244, 181, 79;
   --bs-danger-rgb: 209, 51, 58;
   --bs-light-rgb: 255, 255, 255;
@@ -230,7 +361,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Roboto, sans-serif;
+  --bs-body-font-family: "KB Sans", sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -373,7 +504,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: Sentinel, sans-serif;
+  font-family: "KB Display", serif;
   font-weight: 600;
   line-height: 1.2;
   color: var(--bs-heading-color);
@@ -2834,19 +2965,19 @@ textarea.form-control-lg {
 
 .btn-info {
   --bs-btn-color: #000;
-  --bs-btn-bg: #F4B54F;
-  --bs-btn-border-color: #F4B54F;
+  --bs-btn-bg: #65C6FD;
+  --bs-btn-border-color: #65C6FD;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #f6c069;
-  --bs-btn-hover-border-color: #f5bc61;
-  --bs-btn-focus-shadow-rgb: 207, 154, 67;
+  --bs-btn-hover-bg: #7ccffd;
+  --bs-btn-hover-border-color: #74ccfd;
+  --bs-btn-focus-shadow-rgb: 86, 168, 215;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #f6c472;
-  --bs-btn-active-border-color: #f5bc61;
+  --bs-btn-active-bg: #84d1fd;
+  --bs-btn-active-border-color: #74ccfd;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #F4B54F;
-  --bs-btn-disabled-border-color: #F4B54F;
+  --bs-btn-disabled-bg: #65C6FD;
+  --bs-btn-disabled-border-color: #65C6FD;
 }
 
 .btn-warning {
@@ -2986,19 +3117,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-info {
-  --bs-btn-color: #F4B54F;
-  --bs-btn-border-color: #F4B54F;
+  --bs-btn-color: #65C6FD;
+  --bs-btn-border-color: #65C6FD;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #F4B54F;
-  --bs-btn-hover-border-color: #F4B54F;
-  --bs-btn-focus-shadow-rgb: 244, 181, 79;
+  --bs-btn-hover-bg: #65C6FD;
+  --bs-btn-hover-border-color: #65C6FD;
+  --bs-btn-focus-shadow-rgb: 101, 198, 253;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #F4B54F;
-  --bs-btn-active-border-color: #F4B54F;
+  --bs-btn-active-bg: #65C6FD;
+  --bs-btn-active-border-color: #65C6FD;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #F4B54F;
+  --bs-btn-disabled-color: #65C6FD;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #F4B54F;
+  --bs-btn-disabled-border-color: #65C6FD;
   --bs-gradient: none;
 }
 
@@ -5321,7 +5452,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: Roboto, sans-serif;
+  font-family: "KB Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5431,7 +5562,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: Roboto, sans-serif;
+  font-family: "KB Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6312,8 +6443,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-info-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-info:hover, .link-info:focus {
-  color: RGBA(246, 196, 114, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(246, 196, 114, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(132, 209, 253, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(132, 209, 253, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-warning {
@@ -10245,6 +10376,278 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
+.btn-kb-black {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #000000;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #000000;
+  --bs-btn-focus-shadow-rgb: 38, 38, 38;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: black;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #000000;
+  --bs-btn-disabled-border-color: #000000;
+}
+
+.btn-kb-white {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #FFFFFF;
+  --bs-btn-border-color: #FFFFFF;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d9d9d9;
+  --bs-btn-hover-border-color: #d9d9d9;
+  --bs-btn-focus-shadow-rgb: 217, 217, 217;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: white;
+  --bs-btn-active-border-color: white;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #FFFFFF;
+  --bs-btn-disabled-border-color: #FFFFFF;
+}
+
+.btn-kb-gray {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #F9F9F9;
+  --bs-btn-border-color: #F9F9F9;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d4d4d4;
+  --bs-btn-hover-border-color: #d4d4d4;
+  --bs-btn-focus-shadow-rgb: 212, 212, 212;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #fafafa;
+  --bs-btn-active-border-color: #fafafa;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #F9F9F9;
+  --bs-btn-disabled-border-color: #F9F9F9;
+}
+
+.btn-kb-green {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #B1D18B;
+  --bs-btn-border-color: #B1D18B;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #96b276;
+  --bs-btn-hover-border-color: #96b276;
+  --bs-btn-focus-shadow-rgb: 150, 178, 118;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #c1daa2;
+  --bs-btn-active-border-color: #b9d697;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #B1D18B;
+  --bs-btn-disabled-border-color: #B1D18B;
+}
+
+.btn-kb-pink {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #FD6B8E;
+  --bs-btn-border-color: #FD6B8E;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d75b79;
+  --bs-btn-hover-border-color: #d75b79;
+  --bs-btn-focus-shadow-rgb: 215, 91, 121;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #fd89a5;
+  --bs-btn-active-border-color: #fd7a99;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #FD6B8E;
+  --bs-btn-disabled-border-color: #FD6B8E;
+}
+
+.btn-kb-blue {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #65C6FD;
+  --bs-btn-border-color: #65C6FD;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #56a8d7;
+  --bs-btn-hover-border-color: #56a8d7;
+  --bs-btn-focus-shadow-rgb: 86, 168, 215;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #84d1fd;
+  --bs-btn-active-border-color: #74ccfd;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #65C6FD;
+  --bs-btn-disabled-border-color: #65C6FD;
+}
+
+.btn-kb-orange {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #F4B54F;
+  --bs-btn-border-color: #F4B54F;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #cf9a43;
+  --bs-btn-hover-border-color: #cf9a43;
+  --bs-btn-focus-shadow-rgb: 207, 154, 67;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #f6c472;
+  --bs-btn-active-border-color: #f5bc61;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #F4B54F;
+  --bs-btn-disabled-border-color: #F4B54F;
+}
+
+.btn-kb-apricot {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #F7A07B;
+  --bs-btn-border-color: #F7A07B;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d28869;
+  --bs-btn-hover-border-color: #d28869;
+  --bs-btn-focus-shadow-rgb: 210, 136, 105;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #f9b395;
+  --bs-btn-active-border-color: #f8aa88;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #F7A07B;
+  --bs-btn-disabled-border-color: #F7A07B;
+}
+
+.btn-kb-green-light {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #E2EED4;
+  --bs-btn-border-color: #E2EED4;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #c0cab4;
+  --bs-btn-hover-border-color: #c0cab4;
+  --bs-btn-focus-shadow-rgb: 192, 202, 180;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #e8f1dd;
+  --bs-btn-active-border-color: #e5f0d8;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #E2EED4;
+  --bs-btn-disabled-border-color: #E2EED4;
+}
+
+.btn-kb-pink-light {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #FDEDF1;
+  --bs-btn-border-color: #FDEDF1;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d7c9cd;
+  --bs-btn-hover-border-color: #d7c9cd;
+  --bs-btn-focus-shadow-rgb: 215, 201, 205;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #fdf1f4;
+  --bs-btn-active-border-color: #fdeff2;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #FDEDF1;
+  --bs-btn-disabled-border-color: #FDEDF1;
+}
+
+.btn-kb-blue-light {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #E0F0FB;
+  --bs-btn-border-color: #E0F0FB;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #beccd5;
+  --bs-btn-hover-border-color: #beccd5;
+  --bs-btn-focus-shadow-rgb: 190, 204, 213;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #e6f3fc;
+  --bs-btn-active-border-color: #e3f2fb;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #E0F0FB;
+  --bs-btn-disabled-border-color: #E0F0FB;
+}
+
+.btn-kb-orange-light {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #FDECCF;
+  --bs-btn-border-color: #FDECCF;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d7c9b0;
+  --bs-btn-hover-border-color: #d7c9b0;
+  --bs-btn-focus-shadow-rgb: 215, 201, 176;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #fdf0d9;
+  --bs-btn-active-border-color: #fdeed4;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #FDECCF;
+  --bs-btn-disabled-border-color: #FDECCF;
+}
+
+.btn-kb-apricot-light {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #FDE5DA;
+  --bs-btn-border-color: #FDE5DA;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d7c3b9;
+  --bs-btn-hover-border-color: #d7c3b9;
+  --bs-btn-focus-shadow-rgb: 215, 195, 185;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #fdeae1;
+  --bs-btn-active-border-color: #fde8de;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #FDE5DA;
+  --bs-btn-disabled-border-color: #FDE5DA;
+}
+
+.btn-kb-danger {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #D1333A;
+  --bs-btn-border-color: #D1333A;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #b22b31;
+  --bs-btn-hover-border-color: #b22b31;
+  --bs-btn-focus-shadow-rgb: 216, 82, 88;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #a7292e;
+  --bs-btn-active-border-color: #9d262c;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #D1333A;
+  --bs-btn-disabled-border-color: #D1333A;
+}
+
+.btn-kb-warning {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #F4B54F;
+  --bs-btn-border-color: #F4B54F;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #cf9a43;
+  --bs-btn-hover-border-color: #cf9a43;
+  --bs-btn-focus-shadow-rgb: 207, 154, 67;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #f6c472;
+  --bs-btn-active-border-color: #f5bc61;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #F4B54F;
+  --bs-btn-disabled-border-color: #F4B54F;
+}
+
+.btn-kb-success {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #01C281;
+  --bs-btn-border-color: #01C281;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #01a56e;
+  --bs-btn-hover-border-color: #01a56e;
+  --bs-btn-focus-shadow-rgb: 1, 165, 110;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #34ce9a;
+  --bs-btn-active-border-color: #1ac88e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #01C281;
+  --bs-btn-disabled-border-color: #01C281;
+}
+
 .btn-kb-primary-black {
   --bs-btn-color: #fff;
   --bs-btn-bg: #000000;
@@ -10586,7 +10989,7 @@ textarea.form-control-lg {
 }
 
 .lead {
-  font-family: Sentinel, sans-serif;
+  font-family: "KB Display", serif;
   line-height: 1.375em;
 }
 
@@ -10655,138 +11058,6 @@ fieldset legend {
   border: 1px solid transparent;
 }
 
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 300;
-  font-style: normal;
-  src: url("../fonts/sentinel/Sentinel-Light.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Light.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 300;
-  font-style: italic;
-  src: url("../fonts/sentinel/Sentinel-LightItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-LightItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 400;
-  font-style: normal;
-  src: url("../fonts/sentinel/Sentinel-Medium.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Medium.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 400;
-  font-style: italic;
-  src: url("../fonts/sentinel/Sentinel-MediumItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-MediumItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 500;
-  font-style: normal;
-  src: url("../fonts/sentinel/Sentinel-Medium.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Medium.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 500;
-  font-style: italic;
-  src: url("../fonts/sentinel/Sentinel-MediumItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-MediumItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 600;
-  font-style: normal;
-  src: url("../fonts/sentinel/Sentinel-Semibold.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Semibold.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 600;
-  font-style: italic;
-  src: url("../fonts/sentinel/Sentinel-SemiboldItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-SemiboldItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/sentinel/Sentinel-Bold.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Bold.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 700;
-  font-style: italic;
-  src: url("../fonts/sentinel/Sentinel-BoldItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-BoldItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 900;
-  font-style: normal;
-  src: url("../fonts/sentinel/Sentinel-Black.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-Black.woff") format("woff");
-}
-@font-face {
-  font-family: "Sentinel";
-  font-weight: 900;
-  font-style: italic;
-  src: url("../fonts/sentinel/Sentinel-BlackItalic.woff2") format("woff2"), url("../fonts/sentinel/Sentinel-BlackItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Light.ttf");
-  font-style: normal;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-LightItalic.ttf");
-  font-style: italic;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Regular.ttf");
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Italic.ttf");
-  font-style: italic;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Medium.ttf");
-  font-style: normal;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-MediumItalic.ttf");
-  font-style: italic;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Bold.ttf");
-  font-style: normal;
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-BoldItalic.ttf");
-  font-style: italic;
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Black.ttf");
-  font-style: normal;
-  font-weight: 900;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-BlackItalic.ttf");
-  font-style: italic;
-  font-weight: 900;
-}
 #toc-collapse .nav-item {
   padding: 0;
 }
