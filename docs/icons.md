@@ -5,6 +5,12 @@ Ikoner kan användas för att förstärka syftet med funktionalitet i tjänsten.
 
 Ikoner från Bootstrap rekommenderas i första hand för KB:s digitala tjänster. [Besök Bootstrap](https://icons.getbootstrap.com) för exempel och implementation av ikonbiblioteket. 
 
+Bootstrap Icons finns tillgängliga i våran CDN:
+
+```
+https://cdn.kb.se/bootstrap-icons@1.13.1/bootstrap-icons.min.css
+```
+
 ### KBico
 Kungliga bibliotekets egna ikonbibliotek - KBico består av 53st ikoner, varav två versioner av vår logotyp. Biblioteket finns tillgängligt som såväl webfont som vektorgrafik. 
 

@@ -16,22 +16,17 @@ Genom att följa vår stilguide kan du enkelt anpassa din design för att vara i
 
 Grundbulten i visuell design stavas hierarki. En effektiv och tydlig visuell hierarki hjälper användaren både att ta till sig information och att förstå tjänstens olika funktioner. Några av den visuella hierarkins byggstenar är:
 
-#### Storlek
-
+**Storlek**<br>
 Användare hittar större objekt lättare.
 
-#### Färg
-
+**Färg**<br>
 Klara färger drar generellt till sig mer uppmärksamhet.
 
-#### Kontrast
-
+**Kontrast**<br>
 Stora kontrastskillnader drar ögonen till sig.
 
-#### Närhet
-
+**Närhet**<br>
 Objekt som är placerade nära varandra upplevs tillhöra varandra.
 
-#### Whitespace
-
+**Whitespace**<br>
 Ju mer utrymme ett objekt får desto mer står det ut.

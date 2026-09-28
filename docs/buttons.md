@@ -14,10 +14,6 @@ I första hand rekommenderas användning av svartvita rundade knappar. 
         <div class="col-5 col-sm-4 col-lg-3">
             <button type="button" class="btn btn-kb-primary-black btn-round">Exempel</button>
         </div>
-        <div class="description">
-            <span>ROBOTO</span>
-            <span>bold, versaler, 0.875rem</span>        
-        </div>
     </div>
 </div>
 
@@ -30,10 +26,6 @@ De rektangulära knapparna har en mindre rundning på hörnen.
         <div class="col-5 col-sm-4 col-lg-3">
             <button type="button" class="btn btn-kb-primary-black">Exempel</button>
         </div>
-        <div class="description">
-            <span>ROBOTO</span>
-            <span>bold, versaler, 0.875rem</span>        
-        </div>
     </div>
 </div>
 
@@ -44,10 +36,6 @@ De inverterade knapparna har sin färg som ram istället för bakgrund.
     <div class="example example-button">
         <div class="col-5 col-sm-4 col-lg-3">
             <button type="button" class="btn btn-outline-primary btn-round">Exempel</button>
-        </div>
-        <div class="description">
-            <span>ROBOTO</span>
-            <span>bold, versaler, 0.875rem</span>        
         </div>
     </div>
 </div>
@@ -61,18 +49,18 @@ Alla [våra färger](#farger) finns som modifierare om man använder vårat stil
 <div class="example-block bg-light">
     <div class="example example-button">
         <div class="col-5 col-sm-4 col-lg-3">
-            <button type="button" class="btn btn-kb-primary-pink btn-round">Exempel</button>
+            <button type="button" class="btn btn-kb-pink btn-round">Exempel</button>
         </div>
         <div>
-            <code>.btn-kb-primary-pink</code>
+            <code>.btn-kb-pink</code>
         </div>
     </div>
     <div class="example example-button">
         <div class="col-5 col-sm-4 col-lg-3">
-            <button type="button" class="btn btn-kb-primary-green btn-round">Exempel</button>
+            <button type="button" class="btn btn-kb-green btn-round">Exempel</button>
         </div>
         <div>
-            <code>.btn-kb-primary-green</code>
+            <code>.btn-kb-green</code>
         </div>
     </div>
 </div>
@@ -86,5 +74,13 @@ Tillämpa tillräckligt med visuell skillnad mellan formulärets olika knappar f
 Knappar kan förstärkas med en ikon för att ge extra uppmärksamhet. Ikonen kan läggas antingen till vänster eller höger, och behöver anpassas utifrån övrig utformning av funktionalitet. 
 
 <div class="example-block bg-light">
-    Exempel kommer.
+    <button class="btn btn-round btn-outline-primary">
+        <i class="kbico-download"></i>
+        Exempel
+    </button>
+
+    <button class="btn btn-round btn-outline-primary">
+        Exempel
+        <i class="kbico-download"></i>
+    </button>
 </div>
