@@ -1,6 +1,6 @@
 ## Stilpaket
 
-Som ett komplement till stilguiden finns även [Kungbib/styles](https://www.npmjs.com/package/kungbib-styles), ett stilpaket med bilder, ikoner och en stilmall som bygger på [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
+Som ett komplement till stilguiden finns även [Kungbib/styles](https://www.npmjs.com/package/@kungbib/bootstrap-styles), ett stilpaket med bilder, ikoner och en stilmall som bygger på [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
 
 Paketet riktar sig till den som vill ha en stabil utgångspunkt för sin tjänstedesign, och kommer med både paketerade CSS-filer och opaketerade Sass-filer.
 
@@ -44,11 +44,11 @@ Exempel på samlingsfil
 
 // Your own variables 
 @import 'variables';
-// Kungbib-styles variables
+// bootstrap-styles variables
 @import 'node_modules/@kungbib/bootstrap-styles/lib/scss/variables';
 // Bootstrap import
 @import 'node_modules/bootstrap/scss/bootstrap';
-// Kungbib-styles styles
+// bootstrap-styles styles
 @import 'node_modules/@kungbib/bootstrap-styles/lib/scss/styles';
 
 // Icons, optional import 
