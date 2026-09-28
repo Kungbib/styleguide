@@ -59,33 +59,23 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 {%- block site_name %}
-                <a class="navbar-brand" href="{{ nav.homepage.url|url }}"><img alt="Kungliga bibliotekets logotyp" src="img/kb_logo_black.svg" /> {{ config.site_name }}</a>
+                <a class="navbar-brand" href="{{ nav.homepage.url|url }}">
+                  <img alt="Kungliga bibliotekets logotyp" src="/img/kb_logo_black.svg" /> {{ config.site_name }}
+                </a>
                 {%- endblock %}
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                </div> -->
             </div>
         </nav>
 
         <div class="container main-content">
             <div class="row">
                 {%- block content %}
-                    <div class="col-md-3">{% include "toc.html" %}</div>
-                    <div class="col-md-9 margin-bottom" role="main">{% include "content.html" %}</div>
+                    {% if page and page.is_homepage %}
+                      <div class="col-md-3">{% include "toc.html" %}</div>
+                      <div class="col-md-9 margin-bottom" role="main">{% include "content.html" %}</div>
+                    {% else %}
+                      <div class="col-md-12 margin-bottom" role="main">{% include "content.html" %}</div>
+                    {% endif %}
+                    
                 {%- endblock %}
             </div>
             <div class="d-none d-md-block vh-50"></div>
@@ -95,12 +85,12 @@
           <div class="container">
             <div class="row">
               <div class="col-md-3 text-center">
-                <img class="w-50 d-lg-inline d-md-none d-none" src="vendor/assets/kb_logo_text_white.svg">
-                <img class="w-75 d-md-inline d-lg-none d-none" src="vendor/assets/kb_logo_text_white.svg">
-                <img class="w-50 d-md-none d-inline" alt="Kungliga bibliotekets logotyp" src="vendor/assets/kb_logo_text_white.svg">
+                <img class="w-50 d-lg-inline d-md-none d-none" src="/vendor/assets/kb_logo_text_white.svg">
+                <img class="w-75 d-md-inline d-lg-none d-none" src="/vendor/assets/kb_logo_text_white.svg">
+                <img class="w-50 d-md-none d-inline" alt="Kungliga bibliotekets logotyp" src="/vendor/assets/kb_logo_text_white.svg">
               </div>
               <div class="col-md-4 d-flex flex-column">
-                <h4>Stilguide</h4>
+                <h4 class="h3">Stilguide</h4>
                 <ul class="bd-footer-links ps-0 mb-3 text-light">
                   <li class="d-block"><a class="text-light" href="https://www.kb.se/om-oss/tillganglighet-pa-kbs-webbplatser-och-digitala-tjanster.html">Tillgänglighetsredogörelse</a></li>
                   <li class="d-block"><a class="text-light" href="https://github.com/Kungbib/styleguide">Stilguiden på GitHub</a></li>
@@ -108,7 +98,7 @@
                 </ul>
               </div>
               <div class="col-md-4 d-flex flex-column">
-                <h4>Om KB</h4>
+                <h4 class="h3">Om KB</h4>
                 <ul class="bd-footer-links ps-0 mb-3 text-light">
                   <li class="d-block"><a class="text-light" href="https://www.kb.se">Mer om KB</a></li>
                 </ul>
