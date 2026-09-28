@@ -2,99 +2,99 @@
 
 Använd KB:s färgpalett. Färgkontrasten för text och interaktiva element ska följa [W3C's standard](https://www.w3.org/TR/2008/REC-WCAG20-20081211/).
 
-### Primärfärger
+### Standardfärger
 
-Kungliga biblioteket har fem standardfärger. På kb.se används färgerna för att påvisa funktionalitet och uppmärksamma viktig info. Exempel på grafiska element som kan färgsättas: bakgrunder, interaktionselement och ikoner. Färgerna har alltså begränsad dekorativ funktion. Rekommendationen är att välja en primärfärg och använda de andra som accentfärger för olika funktioner. 
+Kungliga biblioteket har fem standardfärger. På kb.se används färgerna för att påvisa funktionalitet och uppmärksamma viktig info. Exempel på grafiska element som kan färgsättas: bakgrunder, interaktionselement och ikoner. Färgerna har alltså begränsad dekorativ funktion. Rekommendationen är att välja en standardfärg och använda de andra som accentfärger för olika funktioner. 
 
-Samtliga primärfärger har en ljusare nyans. Dessa kan användas kombinerat med den valda primärfärgen. 
+Samtliga färger har en ljusare nyans. Dessa kan användas kombinerat med den valda färgen. 
 
 <div class="example-block bg-light">
     <div class="row">
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-pink ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-pink ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Rosa</span>
-                <span>$kb-primary-pink</span>
+                <span>$kb-pink</span>
                 <span>#FD6B8E</span>
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-complementary-pink ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-pink-light ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Rosa, ljus</span>
-                <span>$kb-complementary-pink</span>
+                <span>$kb-pink-light</span>
                 <span>#FDEDF1</span>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-blue ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-blue ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Blå</span>
-                <span>$kb-primary-blue</span>
+                <span>$kb-blue</span>
                 <span>#65C6FD</span>
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-complementary-blue ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-blue-light ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Blå, ljus</span>
-                <span>$kb-complementary-blue</span>
+                <span>$kb-blue-light</span>
                 <span>#E0F0FB</span>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-green ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-green ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Grön</span>
-                <span>$kb-primary-green</span>
+                <span>$kb-green</span>
                 <span>#B1D18B</span>
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-complementary-green ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-green-light ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Grön, ljus</span>
-                <span>$kb-complementary-green</span>
+                <span>$kb-green-light</span>
                 <span>#E2EED4</span>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-orange ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-orange ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Orange</span>
-                <span>$kb-primary-orange</span>
+                <span>$kb-orange</span>
                 <span>#F4B54F</span>
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-complementary-orange ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-orange-light ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Orange, ljus</span>
-                <span>$kb-complementary-orange</span>
+                <span>$kb-orange-light</span>
                 <span>#FDECCF</span>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-primary-peach ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-apricot ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Aprikos</span>
-                <span>$kb-primary-peach</span>
+                <span>$kb-apricot</span>
                 <span>#F7A07B</span>
             </div>
         </div>
         <div class="example-color col-10 col-sm-8 col-lg-6">
-            <div class="example-color-circle bg-kb-complementary-peach ratio ratio-1x1"></div>
+            <div class="example-color-circle bg-kb-apricot-light ratio ratio-1x1"></div>
             <div class="example-color-description">
                 <span>Aprikos, ljus</span>
-                <span>$kb-complementary-peach</span>
+                <span>$kb-apricot-light</span>
                 <span>#FDE5DA</span>
             </div>
         </div>
