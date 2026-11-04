@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@kungbib/bootstrap-styles@3.0.0-rc.1":
-  version "3.0.0-rc.1"
-  resolved "https://registry.npmjs.org/@kungbib/bootstrap-styles/-/bootstrap-styles-3.0.0-rc.1.tgz"
-  integrity sha512-ldYheZWP2UuiZbCy1DF8LUllG/IgzsYfX/Er6YJjZvGuSuNLZsHiBvkJz7D16a7LPKZEEnA8qSameoOODIv9Jw==
+"@kungbib/bootstrap-styles@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/@kungbib/bootstrap-styles/-/bootstrap-styles-3.0.1.tgz"
+  integrity sha512-UsnEvlmgZRhcpiMdtE+kwQ0aXzrky1er29igNHpwjTuA/fQr0tB446Q2pg/oORWxCgnFa6ttQHtuRVjDVDxJFg==
   dependencies:
     bootstrap "5.3.8"
 
