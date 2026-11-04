@@ -2,7 +2,6 @@
 @import url("https://cdn.kb.se/fonts/kb/KBDisplay.css");
 @import url("https://cdn.kb.se/fonts/kb/KBSans.css");
 @import url("https://cdn.kb.se/fonts/kb/KBSerif.css");
-@import url("https://cdn.kb.se/bootstrap-icons@1.13.1/bootstrap-icons.min.css");
 @import "../fonts/kbico/style.css";
 .bg-kb-black {
   background-color: #000000 !important;
@@ -2027,8 +2026,8 @@ progress {
 }
 
 .col-form-label {
-  padding-top: calc(0.7rem + var(--bs-border-width));
-  padding-bottom: calc(0.7rem + var(--bs-border-width));
+  padding-top: calc(0.375rem + var(--bs-border-width));
+  padding-bottom: calc(0.375rem + var(--bs-border-width));
   margin-bottom: 0;
   font-size: inherit;
   line-height: 1.5;
@@ -2060,7 +2059,7 @@ progress {
 .form-control {
   display: block;
   width: 100%;
-  padding: 0.7rem 1.5rem;
+  padding: 0.375rem 0.75rem;
   font-size: 1.0625rem;
   font-weight: 400;
   line-height: 1.5;
@@ -2108,9 +2107,9 @@ progress {
   opacity: 1;
 }
 .form-control::file-selector-button {
-  padding: 0.7rem 1.5rem;
-  margin: -0.7rem -1.5rem;
-  margin-inline-end: 1.5rem;
+  padding: 0.375rem 0.75rem;
+  margin: -0.375rem -0.75rem;
+  margin-inline-end: 0.75rem;
   color: var(--bs-body-color);
   background-color: var(--bs-tertiary-bg);
   pointer-events: none;
@@ -2133,7 +2132,7 @@ progress {
 .form-control-plaintext {
   display: block;
   width: 100%;
-  padding: 0.7rem 0;
+  padding: 0.375rem 0;
   margin-bottom: 0;
   line-height: 1.5;
   color: var(--bs-body-color);
@@ -2179,7 +2178,7 @@ progress {
 }
 
 textarea.form-control {
-  min-height: calc(1.5em + 1.4rem + calc(var(--bs-border-width) * 2));
+  min-height: calc(1.5em + 0.75rem + calc(var(--bs-border-width) * 2));
 }
 textarea.form-control-sm {
   min-height: calc(1.5em + 0.5rem + calc(var(--bs-border-width) * 2));
@@ -2190,8 +2189,8 @@ textarea.form-control-lg {
 
 .form-control-color {
   width: 3rem;
-  height: calc(1.5em + 1.4rem + calc(var(--bs-border-width) * 2));
-  padding: 0.7rem;
+  height: calc(1.5em + 0.75rem + calc(var(--bs-border-width) * 2));
+  padding: 0.375rem;
 }
 .form-control-color:not(:disabled):not([readonly]) {
   cursor: pointer;
@@ -2215,7 +2214,7 @@ textarea.form-control-lg {
   --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
   display: block;
   width: 100%;
-  padding: 0.7rem 4.5rem 0.7rem 1.5rem;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
   font-size: 1.0625rem;
   font-weight: 400;
   line-height: 1.5;
@@ -2224,7 +2223,7 @@ textarea.form-control-lg {
   background-color: var(--bs-body-bg);
   background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
   background-repeat: no-repeat;
-  background-position: right 1.5rem center;
+  background-position: right 0.75rem center;
   background-size: 16px 12px;
   border: var(--bs-border-width) solid #707070;
   border-radius: var(--bs-border-radius);
@@ -2241,7 +2240,7 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 .form-select[multiple], .form-select[size]:not([size="1"]) {
-  padding-right: 1.5rem;
+  padding-right: 0.75rem;
   background-image: none;
 }
 .form-select:disabled {
@@ -2506,7 +2505,7 @@ textarea.form-control-lg {
   z-index: 2;
   max-width: 100%;
   height: 100%;
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.75rem;
   overflow: hidden;
   color: rgba(var(--bs-body-color-rgb), 0.65);
   text-align: start;
@@ -2524,7 +2523,7 @@ textarea.form-control-lg {
 }
 .form-floating > .form-control,
 .form-floating > .form-control-plaintext {
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.75rem;
 }
 .form-floating > .form-control::placeholder,
 .form-floating > .form-control-plaintext::placeholder {
@@ -2544,7 +2543,7 @@ textarea.form-control-lg {
 .form-floating > .form-select {
   padding-top: 1.625rem;
   padding-bottom: 0.625rem;
-  padding-left: 1.5rem;
+  padding-left: 0.75rem;
 }
 .form-floating > .form-control:focus ~ label,
 .form-floating > .form-control:not(:placeholder-shown) ~ label,
@@ -2558,7 +2557,7 @@ textarea.form-control-lg {
 .form-floating > textarea:focus ~ label::after,
 .form-floating > textarea:not(:placeholder-shown) ~ label::after {
   position: absolute;
-  inset: 1rem 0.75rem;
+  inset: 1rem 0.375rem;
   z-index: -1;
   height: 1.5em;
   content: "";
@@ -2607,7 +2606,7 @@ textarea.form-control-lg {
 .input-group-text {
   display: flex;
   align-items: center;
-  padding: 0.7rem 1.5rem;
+  padding: 0.375rem 0.75rem;
   font-size: 1.0625rem;
   font-weight: 400;
   line-height: 1.5;
@@ -2647,7 +2646,7 @@ textarea.form-control-lg {
 
 .input-group-lg > .form-select,
 .input-group-sm > .form-select {
-  padding-right: 6rem;
+  padding-right: 3rem;
 }
 
 .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating),
@@ -2706,11 +2705,11 @@ textarea.form-control-lg {
 
 .was-validated .form-control:valid, .form-control.is-valid {
   border-color: var(--bs-form-valid-border-color);
-  padding-right: calc(1.5em + 1.4rem);
+  padding-right: calc(1.5em + 0.75rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: right calc(0.375em + 0.35rem) center;
-  background-size: calc(0.75em + 0.7rem) calc(0.75em + 0.7rem);
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-control:valid:focus, .form-control.is-valid:focus {
   border-color: var(--bs-form-valid-border-color);
@@ -2718,8 +2717,8 @@ textarea.form-control-lg {
 }
 
 .was-validated textarea.form-control:valid, textarea.form-control.is-valid {
-  padding-right: calc(1.5em + 1.4rem);
-  background-position: top calc(0.375em + 0.35rem) right calc(0.375em + 0.35rem);
+  padding-right: calc(1.5em + 0.75rem);
+  background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
 }
 
 .was-validated .form-select:valid, .form-select.is-valid {
@@ -2727,9 +2726,9 @@ textarea.form-control-lg {
 }
 .was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"], .form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"] {
   --bs-form-select-bg-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1'/%3e%3c/svg%3e");
-  padding-right: 8.25rem;
-  background-position: right 1.5rem center, center right 4.5rem;
-  background-size: 16px 12px, calc(0.75em + 0.7rem) calc(0.75em + 0.7rem);
+  padding-right: 4.125rem;
+  background-position: right 0.75rem center, center right 2.25rem;
+  background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-select:valid:focus, .form-select.is-valid:focus {
   border-color: var(--bs-form-valid-border-color);
@@ -2737,7 +2736,7 @@ textarea.form-control-lg {
 }
 
 .was-validated .form-control-color:valid, .form-control-color.is-valid {
-  width: calc(3rem + calc(1.5em + 1.4rem));
+  width: calc(3rem + calc(1.5em + 0.75rem));
 }
 
 .was-validated .form-check-input:valid, .form-check-input.is-valid {
@@ -2796,11 +2795,11 @@ textarea.form-control-lg {
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
   border-color: var(--bs-form-invalid-border-color);
-  padding-right: calc(1.5em + 1.4rem);
+  padding-right: calc(1.5em + 0.75rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: right calc(0.375em + 0.35rem) center;
-  background-size: calc(0.75em + 0.7rem) calc(0.75em + 0.7rem);
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
   border-color: var(--bs-form-invalid-border-color);
@@ -2808,8 +2807,8 @@ textarea.form-control-lg {
 }
 
 .was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
-  padding-right: calc(1.5em + 1.4rem);
-  background-position: top calc(0.375em + 0.35rem) right calc(0.375em + 0.35rem);
+  padding-right: calc(1.5em + 0.75rem);
+  background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
 }
 
 .was-validated .form-select:invalid, .form-select.is-invalid {
@@ -2817,9 +2816,9 @@ textarea.form-control-lg {
 }
 .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"], .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"] {
   --bs-form-select-bg-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
-  padding-right: 8.25rem;
-  background-position: right 1.5rem center, center right 4.5rem;
-  background-size: 16px 12px, calc(0.75em + 0.7rem) calc(0.75em + 0.7rem);
+  padding-right: 4.125rem;
+  background-position: right 0.75rem center, center right 2.25rem;
+  background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-select:invalid:focus, .form-select.is-invalid:focus {
   border-color: var(--bs-form-invalid-border-color);
@@ -2827,7 +2826,7 @@ textarea.form-control-lg {
 }
 
 .was-validated .form-control-color:invalid, .form-control-color.is-invalid {
-  width: calc(3rem + calc(1.5em + 1.4rem));
+  width: calc(3rem + calc(1.5em + 0.75rem));
 }
 
 .was-validated .form-check-input:invalid, .form-check-input.is-invalid {
@@ -2856,8 +2855,8 @@ textarea.form-control-lg {
 }
 
 .btn {
-  --bs-btn-padding-x: 1.5rem;
-  --bs-btn-padding-y: 0.7rem;
+  --bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-y: 0.375rem;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1.0625rem;
   --bs-btn-font-weight: 400;
@@ -3659,8 +3658,8 @@ textarea.form-control-lg {
 }
 
 .dropdown-toggle-split {
-  padding-right: 1.125rem;
-  padding-left: 1.125rem;
+  padding-right: 0.5625rem;
+  padding-left: 0.5625rem;
 }
 .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropend .dropdown-toggle-split::after {
   margin-left: 0;
@@ -10434,9 +10433,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --bs-primary-bg-subtle: #E0F0FB;
+}
+
 .btn {
   --bs-border-radius-lg: 0.375rem;
-  --bs-btn-font-size: 1.125rem;
+  --bs-btn-font-size: 1.0625rem;
+  --bs-btn-padding-x: 1.3rem;
+  --bs-btn-padding-y: 0.5rem;
+  --bs-btn-border-radius: var(--bs-border-radius);
   font-weight: 500;
   display: inline-flex;
   align-items: center;
@@ -10445,20 +10451,27 @@ textarea.form-control-lg {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  --bs-btn-font-size: 1.45rem;
+  --bs-btn-font-size: 1.125rem;
   --bs-border-radius-lg: 0.375rem;
   --bs-btn-padding-x: 1.5rem;
-  --bs-btn-padding-y: 0.75rem;
+  --bs-btn-padding-y: 0.657rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   --bs-border-radius-sm: 0.275rem;
   --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 0.25rem;
   --bs-btn-font-size: 1rem;
 }
 
 .btn-round {
   border-radius: 10em;
+}
+
+.btn-link {
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d9d9d9;
+  --bs-btn-hover-border-color: #cccccc;
 }
 
 .btn-kb-black {
@@ -11078,6 +11091,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.text-sm {
+  font-size: 1rem;
+}
+
+.text-xs {
+  font-size: 0.875rem;
+}
+
 .h1,
 h1 {
   font-family: "KB Serif", serif;
@@ -11089,7 +11110,7 @@ h1 {
 .h2,
 h2 {
   font-family: "KB Serif", serif;
-  font-size: 1.75rem;
+  font-size: 2.125rem;
   font-weight: 500;
   line-height: 1.26;
 }
@@ -11097,33 +11118,57 @@ h2 {
 .h3,
 h3 {
   font-family: "KB Serif", serif;
-  font-size: 1.375rem;
+  font-size: 1.775rem;
   font-weight: 500;
   line-height: 1.3;
 }
 
 .h4,
 h4 {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.25rem;
+  font-family: "KB Sans", sans-serif;
+  font-size: 1.55rem;
   font-weight: 600;
   line-height: 1.5;
+}
+.h4.font-serif,
+h4.font-serif {
+  font-weight: 500;
 }
 
 .h5,
 h5 {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.125rem;
+  font-family: "KB Sans", sans-serif;
+  font-size: 1.325rem;
   font-weight: 600;
   line-height: 1.5;
+}
+.h5.font-serif,
+h5.font-serif {
+  font-weight: 500;
 }
 
 .h6,
 h6 {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.0625rem;
+  font-family: "KB Sans", sans-serif;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.5;
+}
+.h6.font-serif,
+h6.font-serif {
+  font-weight: 500;
+}
+
+.font-serif {
+  font-family: "KB Serif", serif;
+}
+
+.font-sans {
+  font-family: "KB Sans", sans-serif;
+}
+
+.font-display {
+  font-family: "KB Display", serif;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6,
@@ -11159,6 +11204,33 @@ img ~ .img-desc {
   line-height: 1.3;
 }
 
+p > a:hover {
+  --dymo-color: #000000a6;
+  --dymo-text: #fff;
+  background-color: var(--dymo-color);
+  text-decoration: none;
+  box-shadow: 2px 0 0 0 var(--dymo-color), -2px 0 0 0 var(--dymo-color);
+  color: var(--dymo-text);
+}
+
+.form-control {
+  padding: 0.5rem 0.75rem;
+  font-size: 1.0625rem;
+  border-radius: var(--bs-border-radius);
+}
+
+.form-control-sm {
+  padding: 0.25rem 0.75rem;
+  font-size: 1rem;
+  border-radius: var(--bs-border-radius);
+}
+
+.form-control-lg {
+  padding: 0.563rem 0.75rem;
+  font-size: 1.25rem;
+  border-radius: var(--bs-border-radius);
+}
+
 ol:not(.breadcrumb) {
   counter-reset: item;
 }
@@ -11175,14 +11247,26 @@ ol:not(.breadcrumb) li:before {
 }
 .badge.badge-icon {
   border-radius: 50%;
-  padding: 0.6em;
+  padding: 0.45em;
   line-height: 1;
-  height: 3rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
   vertical-align: middle;
-  font-size: 1.2em;
+  font-size: 1.1em;
   border: 1px solid transparent;
   margin-right: 0.5em;
+}
+
+.pagination {
+  --bs-pagination-active-color: #000000;
+  --bs-pagination-active-bg: #E0F0FB;
+  --bs-pagination-active-border-color: #65C6FD;
+}
+
+.list-group {
+  --bs-list-group-active-bg: #E0F0FB;
+  --bs-list-group-active-border-color: #65C6FD;
+  --bs-list-group-active-color: #000;
 }
 
 .accordion-button {
@@ -11195,6 +11279,10 @@ ol:not(.breadcrumb) li:before {
   font-family: "KB Sans", sans-serif;
 }
 
+.navbar {
+  min-height: 4.25rem;
+}
+
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -11203,6 +11291,7 @@ ol:not(.breadcrumb) li:before {
   gap: 0.35em;
   padding: 0;
   line-height: 1;
+  min-height: 3rem;
 }
 
 .navbar-brand img {
@@ -11248,7 +11337,7 @@ fieldset legend {
 }
 
 body {
-  --navbar-brand-size: 1.75rem;
+  --navbar-brand-size: 1.85rem;
   position: relative;
 }
 

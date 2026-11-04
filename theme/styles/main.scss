@@ -5,13 +5,15 @@
 // !!! The order of these imports are important. !!!
 // Own variables for this site
 @import 'variables';                                            
+
 // bootstrap-styles variables
 @import '../../node_modules/@kungbib/bootstrap-styles/lib/scss/variables'; 
+
 // Bootstrap import
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
 // bootstrap-styles styles
 @import '../../node_modules/@kungbib/bootstrap-styles/lib/scss/styles';
-@import url("https://cdn.kb.se/bootstrap-icons@1.13.1/bootstrap-icons.min.css");
 
 // Project specific styles following
 // Any bootstrap variables should be imported before importing bootstrap package
