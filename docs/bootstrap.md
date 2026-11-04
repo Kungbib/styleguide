@@ -75,17 +75,26 @@
           <section id="typography" class="component-section">
             <h2 class="component-title">Typography</h2>
             <p class="component-desc">Headings, display headings, and text utilities.</p>
+            <p class="component-desc">Headings with .display-* classes</p>
             <div class="demo-box">
+              <h1 class="display-3">Display 3 heading</h1>
               <h1 class="display-4">Display 4 heading</h1>
               <h1 class="display-5">Display 5 heading</h1>
-              <br><br>
+              <h1 class="display-6">Display 6 heading</h1>
+            </div>
+            <br>
+            <p class="component-desc">Headings without any classes</p>
+            <div class="demo-box">
               <h1>h1. Heading</h1>
               <h2>h2. Heading</h2>
               <h3>h3. Heading</h3>
               <h4>h4. Heading</h4>
               <h5>h5. Heading</h5>
               <h6>h6. Heading</h6>
-              <br><br>
+            </div>
+            <br>
+            <p class="component-desc">Text with .h* classes</p>
+            <div class="demo-box">
               <div class="d-flex flex-column">
                 <span class="h1">h1. Heading</span>
                 <span class="h2">h2. Heading</span>
@@ -94,7 +103,17 @@
                 <span class="h5">h5. Heading</span>
                 <span class="h6">h6. Heading</span>
               </div>
+            </div>
+            <br>
+            <p class="component-desc">Paragraph text, modified with text-sm and text-xs classes</p>
+            <div class="demo-box">
               <p>A regular paragraph with <strong>bold</strong>, <em>italic</em>, and <a href="#">a link</a>.</p>
+              <p class="text-sm">A regular paragraph with text size .text-sm <strong>bold</strong>, <em>italic</em>, and <a href="#">a link</a>.</p>
+              <p class="text-xs">A regular paragraph with text size .text-xs <strong>bold</strong>, <em>italic</em>, and <a href="#">a link</a>.</p>
+            </div>
+            <br>
+            <p class="component-desc">Blockquote</p>
+            <div class="demo-box">
               <blockquote class="blockquote">
                 <p>A well-known quote, contained in a blockquote element.</p>
                 <footer class="blockquote-footer">Someone famous</footer>
@@ -505,10 +524,43 @@
                 <input type="text" class="form-control" placeholder="Username">
               </div>
               <div class="input-group">
-                <button class="btn btn-outline-secondary" type="button">Button</button>
+                <button class="btn btn-secondary" type="button">Button</button>
                 <input type="text" class="form-control" placeholder="Recipient's username">
                 <span class="input-group-text">.00</span>
               </div>
+            </div>
+          </section>
+          <!-- Form control sizing -->
+          <section id="form-sizing" class="component-section">
+            <h2 class="component-title">Form control sizing</h2>
+            <p class="component-desc">
+              Use `*-sm` and `*-lg` modifiers to adjust input and button sizes.
+            </p>
+            <div class="demo-box">
+              <form class="row g-3">
+                <div class="col-auto">
+                  <input type="input" class="form-control form-control-sm" />
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-sm btn-primary mb-3">Search</button>
+                </div>
+              </form>
+              <form class="row g-3">
+                <div class="col-auto">
+                  <input type="input" class="form-control" />
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-3">Search</button>
+                </div>
+              </form>
+              <form class="row g-3">
+                <div class="col-auto">
+                  <input type="input" class="form-control form-control-lg" />
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-lg btn-primary mb-3">Search</button>
+                </div>
+              </form>
             </div>
           </section>
           <!-- List Group -->
@@ -546,7 +598,7 @@
                       This is the body of the modal, containing some placeholder text.
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
                       <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                   </div>

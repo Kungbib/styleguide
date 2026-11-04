@@ -1,6 +1,6 @@
 {
   "name": "kungbib-styleguide",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Guidelines for quickly setting up UI in apps and services at the National Library of Sweden.",
   "main": "index.js",
   "repository": "git@github.com:Kungbib/styleguide.git",
@@ -24,7 +24,7 @@
     "deploy": "npm run build && ./deploy.sh"
   },
   "dependencies": {
-    "@kungbib/bootstrap-styles": "3.0.0-rc.1",
+    "@kungbib/bootstrap-styles": "3.0.1",
     "bootstrap": "5.3.8"
   },
   "devDependencies": {
